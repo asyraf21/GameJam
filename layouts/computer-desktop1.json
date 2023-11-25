@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.4335774304702437,
+    "zoomFactor": 0.9934433498259723,
     "windowMask": false
   },
   "objectsGroups": [
@@ -1360,6 +1360,18 @@
             "Menu_List",
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "afc913f2f6ebeaec6beee8473f0994012aec8e37e9fa3225a72a5b8851df4ae8_Jump_Land_02.wav",
+            "",
+            "100",
+            "1"
+          ]
         }
       ]
     },
@@ -1377,6 +1389,18 @@
         }
       ],
       "actions": [
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "afc913f2f6ebeaec6beee8473f0994012aec8e37e9fa3225a72a5b8851df4ae8_Jump_Land_02.wav",
+            "",
+            "100",
+            "1"
+          ]
+        },
         {
           "type": {
             "value": "Scene"

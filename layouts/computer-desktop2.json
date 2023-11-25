@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 1.0973679695629746,
+    "zoomFactor": 0.9610368693714982,
     "windowMask": false
   },
   "objectsGroups": [
@@ -218,21 +218,6 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "WinMenu_1",
-      "persistentUuid": "7a843569-93f5-4486-8b7e-0496d8bd04db",
-      "width": 0,
-      "x": 501,
-      "y": 276,
-      "zOrder": 14,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
       "customSize": true,
       "depth": 32,
       "height": 36,
@@ -275,6 +260,22 @@
       "x": 419,
       "y": 260,
       "zOrder": 17,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 295,
+      "layer": "PC",
+      "name": "WindowBlock",
+      "persistentUuid": "c84c12e8-c3d8-4fe7-a66f-e444bca5cd05",
+      "width": 161,
+      "x": 566,
+      "y": 175,
+      "zOrder": 18,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1163,9 +1164,9 @@
       "effects": [],
       "behaviors": [
         {
-          "checkCollisionMask": true,
           "name": "Draggable",
-          "type": "DraggableBehavior::Draggable"
+          "type": "DraggableBehavior::Draggable",
+          "checkCollisionMask": true
         }
       ],
       "animations": [
@@ -1470,6 +1471,17 @@
           "width": 192
         }
       }
+    },
+    {
+      "assetStoreId": "",
+      "height": 32,
+      "name": "WindowBlock",
+      "texture": "New image5",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
     }
   ],
   "objectsFolderStructure": {
@@ -1539,6 +1551,9 @@
       },
       {
         "objectName": "FloatingOutButtonDarkBlue"
+      },
+      {
+        "objectName": "WindowBlock"
       }
     ]
   },
@@ -1580,6 +1595,14 @@
           },
           "parameters": [
             "Window_List"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "WindowBlock"
           ]
         },
         {
@@ -1681,9 +1704,9 @@
           },
           "parameters": [
             "",
-            "afc913f2f6ebeaec6beee8473f0994012aec8e37e9fa3225a72a5b8851df4ae8_Jump_Land_02.wav",
+            "853b0f38130b729aeebd75277152bcbcbe3b37a1b483b841dc49d9b0e3a44e00_Impact 1.aac",
             "",
-            "100",
+            "200",
             "1"
           ]
         },
@@ -1732,9 +1755,9 @@
           },
           "parameters": [
             "",
-            "afc913f2f6ebeaec6beee8473f0994012aec8e37e9fa3225a72a5b8851df4ae8_Jump_Land_02.wav",
+            "853b0f38130b729aeebd75277152bcbcbe3b37a1b483b841dc49d9b0e3a44e00_Impact 1.aac",
             "",
-            "100",
+            "200",
             "1"
           ]
         },
@@ -1777,9 +1800,9 @@
           },
           "parameters": [
             "",
-            "afc913f2f6ebeaec6beee8473f0994012aec8e37e9fa3225a72a5b8851df4ae8_Jump_Land_02.wav",
+            "853b0f38130b729aeebd75277152bcbcbe3b37a1b483b841dc49d9b0e3a44e00_Impact 1.aac",
             "",
-            "100",
+            "200",
             "1"
           ]
         },
@@ -1803,6 +1826,117 @@
       ]
     },
     {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+          },
+          "parameters": [
+            "WinMenu_1",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "WindowBlock",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "853b0f38130b729aeebd75277152bcbcbe3b37a1b483b841dc49d9b0e3a44e00_Impact 1.aac",
+            "",
+            "200",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+          },
+          "parameters": [
+            "WinMenu_2",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "WindowBlock",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "853b0f38130b729aeebd75277152bcbcbe3b37a1b483b841dc49d9b0e3a44e00_Impact 1.aac",
+            "",
+            "200",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+          },
+          "parameters": [
+            "WinMenu_3",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "WindowBlock",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "853b0f38130b729aeebd75277152bcbcbe3b37a1b483b841dc49d9b0e3a44e00_Impact 1.aac",
+            "",
+            "200",
+            ""
+          ]
+        }
+      ]
+    },
+    {
       "type": "BuiltinCommonInstructions::Comment",
       "color": {
         "b": 109,
@@ -1813,6 +1947,11 @@
         "textR": 0
       },
       "comment": "Reveal Main Page"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": []
     },
     {
       "type": "BuiltinCommonInstructions::Standard",

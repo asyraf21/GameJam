@@ -868,6 +868,102 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Platformer Pack/Objects/f5dc742c2f73291cb5a0232b7f4795155b09d3a9adf224ae51c11ce3b48f348e_Stairs.png",
           "name": "Stairs.png"
         }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/pexels-julie-aagaard-2734612.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/pexels-julie-aagaard-2734612.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/pexels-kelly-2928254.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/pexels-kelly-2928254.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/pexels-photo-1454797-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/pexels-photo-1454797-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/pexels-krakograff-textures-11027039.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/pexels-krakograff-textures-11027039.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/pexels-kelly-2928254-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/pexels-kelly-2928254-2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Run_01.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "0cb578b8c8eadbf733a6e02835481f46be6450085bb6bb848b4d97b3486a7a09_Run_01.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/SoundEffects/Footsteps/Wood/Run/0cb578b8c8eadbf733a6e02835481f46be6450085bb6bb848b4d97b3486a7a09_Run_01.wav",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/desktop-window.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/desktop-window.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Mana Two - Part 3.aac",
+        "kind": "audio",
+        "metadata": "",
+        "name": "dced5dc249618fff1454a051d40cc395b9e66937dca6e0c0e426e2c9ccaca5e6_Mana Two - Part 3.aac",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Music/Chill/dced5dc249618fff1454a051d40cc395b9e66937dca6e0c0e426e2c9ccaca5e6_Mana Two - Part 3.aac",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "file": "assets/Jump_Land_02.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "afc913f2f6ebeaec6beee8473f0994012aec8e37e9fa3225a72a5b8851df4ae8_Jump_Land_02.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/SoundEffects/Footsteps/Sand/Jump/afc913f2f6ebeaec6beee8473f0994012aec8e37e9fa3225a72a5b8851df4ae8_Jump_Land_02.wav",
+          "name": "gdevelop-asset-store"
+        }
       }
     ],
     "resourceFolders": []
@@ -968,6 +1064,10 @@
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/computer-desktop-b1"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/quiz"
     },
     {
@@ -976,11 +1076,15 @@
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/untitled-scene2"
+      "referenceTo": "/layouts/answer"
     }
   ],
   "externalEvents": [],
   "eventsFunctionsExtensions": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/flash"
+    },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/eventsFunctionsExtensions/draggableslidercontrol"

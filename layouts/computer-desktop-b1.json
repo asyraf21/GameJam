@@ -1,8 +1,8 @@
 {
   "b": 209,
   "disableInputWhenNotFocused": true,
-  "mangledName": "Computer_45Desktop2",
-  "name": "Computer-Desktop2",
+  "mangledName": "Computer_45Desktop_45B1",
+  "name": "Computer-Desktop-B1",
   "r": 209,
   "standardSortMethod": true,
   "stopSoundsOnStartup": true,
@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.8700232859857437,
+    "zoomFactor": 0.8141881203710047,
     "windowMask": false
   },
   "objectsGroups": [
@@ -27,14 +27,6 @@
       "objects": [
         {
           "name": "Menu_1"
-        }
-      ]
-    },
-    {
-      "name": "Window_List",
-      "objects": [
-        {
-          "name": "Window"
         }
       ]
     }
@@ -195,45 +187,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 318,
-      "layer": "PC",
-      "name": "Window",
-      "persistentUuid": "491fb81e-79f5-4308-b79a-a5de2c6db08b",
-      "width": 458,
-      "x": 411,
-      "y": 155,
-      "zOrder": 13,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "height": 426,
       "layer": "",
-      "name": "Menu_2",
-      "persistentUuid": "7a843569-93f5-4486-8b7e-0496d8bd04db",
-      "width": 0,
-      "x": 501,
-      "y": 276,
-      "zOrder": 14,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 32,
-      "height": 36,
-      "layer": "PC",
-      "name": "Menu_2",
-      "persistentUuid": "f3854260-cfd5-4dd1-b836-e267e4d4c901",
-      "width": 108,
-      "x": 447,
-      "y": 181,
-      "zOrder": 15,
+      "name": "Video1",
+      "persistentUuid": "be6d3aa3-b1d1-48cc-b451-20ee9859dc0e",
+      "width": 757,
+      "x": 284,
+      "y": 120,
+      "zOrder": 13,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1122,9 +1083,9 @@
       "effects": [],
       "behaviors": [
         {
-          "checkCollisionMask": true,
           "name": "Draggable",
-          "type": "DraggableBehavior::Draggable"
+          "type": "DraggableBehavior::Draggable",
+          "checkCollisionMask": true
         }
       ],
       "animations": [
@@ -1177,69 +1138,6 @@
           ]
         }
       ]
-    },
-    {
-      "assetStoreId": "f23eb31ad33dd63f1937c8745105316ca530c28513c64b68a665975503c852a6",
-      "name": "WhiteSquareDecoratedButton",
-      "type": "PanelSpriteButton::PanelSpriteButton",
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "content": {
-        "LeftPadding": 16,
-        "RightPadding": 16,
-        "PressedLabelOffsetY": 6,
-        "BottomPadding": 24,
-        "TopPadding": 20,
-        "HoveredFadeOutDuration": 0.25
-      },
-      "childrenContent": {
-        "Hovered": {
-          "bottomMargin": 22,
-          "height": 64,
-          "leftMargin": 16,
-          "rightMargin": 16,
-          "texture": "White Square Decorated Button_Hovered.png",
-          "tiled": true,
-          "topMargin": 16,
-          "width": 192
-        },
-        "Idle": {
-          "bottomMargin": 22,
-          "height": 64,
-          "leftMargin": 16,
-          "rightMargin": 16,
-          "texture": "White Square Decorated Button_Idle.png",
-          "tiled": true,
-          "topMargin": 16,
-          "width": 192
-        },
-        "Label": {
-          "bold": false,
-          "italic": false,
-          "smoothed": true,
-          "underlined": false,
-          "string": "Button",
-          "font": "mononoki-Regular.ttf",
-          "textAlignment": "center",
-          "characterSize": 20,
-          "color": {
-            "b": 0,
-            "g": 0,
-            "r": 0
-          }
-        },
-        "Pressed": {
-          "bottomMargin": 16,
-          "height": 64,
-          "leftMargin": 16,
-          "rightMargin": 16,
-          "texture": "White Square Decorated Button_Pressed.png",
-          "tiled": true,
-          "topMargin": 22,
-          "width": 192
-        }
-      }
     }
   ],
   "objectsFolderStructure": {
@@ -1297,9 +1195,6 @@
       },
       {
         "objectName": "Window"
-      },
-      {
-        "objectName": "WhiteSquareDecoratedButton"
       }
     ]
   },
@@ -1345,11 +1240,19 @@
         },
         {
           "type": {
-            "value": "PreloadMusic"
+            "value": "PreloadSound"
           },
           "parameters": [
             "",
             "eaaf2193c7718e7b6d153b6f614c763f14e3c4b4f541416b8c7793be15d76d4f_Hidden Truth.aac"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "Video1"
           ]
         }
       ]
@@ -1369,12 +1272,12 @@
       "actions": [
         {
           "type": {
-            "value": "PlayMusic"
+            "value": "PlaySound"
           },
           "parameters": [
             "",
             "eaaf2193c7718e7b6d153b6f614c763f14e3c4b4f541416b8c7793be15d76d4f_Hidden Truth.aac",
-            "",
+            "50",
             "50",
             ""
           ]
@@ -1395,6 +1298,18 @@
             "",
             "no"
           ]
+        },
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "VideoMask",
+            "Video1",
+            "",
+            "",
+            ""
+          ]
         }
       ],
       "actions": [
@@ -1405,6 +1320,17 @@
           "parameters": [
             "",
             "DesktopBG",
+            "VideoMask",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "SpriteMasking::Mask"
+          },
+          "parameters": [
+            "",
+            "Video1",
             "VideoMask",
             ""
           ]
@@ -1436,18 +1362,6 @@
         }
       ],
       "actions": [
-        {
-          "type": {
-            "value": "PlaySound"
-          },
-          "parameters": [
-            "",
-            "afc913f2f6ebeaec6beee8473f0994012aec8e37e9fa3225a72a5b8851df4ae8_Jump_Land_02.wav",
-            "",
-            "100",
-            "1"
-          ]
-        },
         {
           "type": {
             "value": "TextContainerCapability::TextContainerBehavior::SetValue"
@@ -1489,18 +1403,6 @@
       "actions": [
         {
           "type": {
-            "value": "PlaySound"
-          },
-          "parameters": [
-            "",
-            "afc913f2f6ebeaec6beee8473f0994012aec8e37e9fa3225a72a5b8851df4ae8_Jump_Land_02.wav",
-            "",
-            "100",
-            "1"
-          ]
-        },
-        {
-          "type": {
             "value": "Cache"
           },
           "parameters": [
@@ -1534,18 +1436,6 @@
       "actions": [
         {
           "type": {
-            "value": "PlaySound"
-          },
-          "parameters": [
-            "",
-            "afc913f2f6ebeaec6beee8473f0994012aec8e37e9fa3225a72a5b8851df4ae8_Jump_Land_02.wav",
-            "",
-            "100",
-            "1"
-          ]
-        },
-        {
-          "type": {
             "value": "Cache"
           },
           "parameters": [
@@ -1557,8 +1447,16 @@
             "value": "Montre"
           },
           "parameters": [
-            "Window",
+            "Video1",
             ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Video::Play"
+          },
+          "parameters": [
+            "Video1"
           ]
         }
       ]

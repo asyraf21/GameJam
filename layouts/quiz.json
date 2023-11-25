@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.546875,
+    "zoomFactor": 0.6455105703311479,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -33,8 +33,8 @@
       "name": "NewTiledSprite",
       "persistentUuid": "ed0cce5d-1de4-486c-b0ce-d7b48c4bf501",
       "width": 1816,
-      "x": -335,
-      "y": -9,
+      "x": -328,
+      "y": -7,
       "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
@@ -66,7 +66,7 @@
       "persistentUuid": "93ea69c0-16f0-4194-ae8a-ea4a8ab7240c",
       "width": 520,
       "x": 192,
-      "y": 221,
+      "y": 230,
       "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
@@ -81,7 +81,7 @@
       "persistentUuid": "08193df4-7b6e-4945-90a7-791fa4b4bb05",
       "width": 0,
       "x": 192,
-      "y": 348,
+      "y": 359,
       "zOrder": 4,
       "numberProperties": [],
       "stringProperties": [],
@@ -108,7 +108,7 @@
       "assetStoreId": "",
       "height": 800,
       "name": "NewTiledSprite",
-      "texture": "v602-nunoon-05-rippednotes.jpg",
+      "texture": "assets/pexels-julie-aagaard-2734612.jpg",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 400,
       "variables": [],
@@ -508,6 +508,16 @@
             "Answer_C1",
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "\"Ash-Lower GF\"",
+            ""
+          ]
         }
       ]
     },
@@ -659,7 +669,7 @@
           },
           "parameters": [
             "",
-            "",
+            "\"Ash-Lower GF\"",
             ""
           ]
         }

@@ -623,6 +623,251 @@
         "name": "New image4",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/9patch_Wood Background_all_66.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "9patch_Wood Background_all_64.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Bomb Pack/Tile Sets/Wood Background/cde7121802cd226997240e3941fbaf9193a225e5ffff40cc849e918047959711_9patch_Wood Background_all_64.png",
+          "name": "9patch_Wood Background_all_64.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Top Left Corner Redwood Background Cutout.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Top Left Corner Redwood Background Cutout.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Top Left Corner Redwood Background Cutout.png.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Top Left Corner Redwood Background Cutout.png.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Top Right Corner Redwood Background Cutout.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Top Right Corner Redwood Background Cutout.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Top Right Corner Redwood Background Cutout.png.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Top Right Corner Redwood Background Cutout.png.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/9patch_Redwood Background_north.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/9patch_Redwood Background_north.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bottom Left Corner Redwood Background Cutout.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Bottom Left Corner Redwood Background Cutout.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Table.png.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Table.png.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Door_Closed.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Door_Closed.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Bomb Pack/Objects/Door/cf63215d6e61ab39a3c0af84abdc9d74a21601c72078be57c1b74fa732d6d642_Door_Closed.png",
+          "name": "Door_Closed.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Door_Closing_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Door_Closing_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Bomb Pack/Objects/Door/6b88886449d1d6f007da76f35dde1a45f53cb3ed4976d3a7b623f2cfd3224d00_Door_Closing_1.png",
+          "name": "Door_Closing_1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Door_Closing_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Door_Closing_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Bomb Pack/Objects/Door/cf63215d6e61ab39a3c0af84abdc9d74a21601c72078be57c1b74fa732d6d642_Door_Closing_2.png",
+          "name": "Door_Closing_2.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Door_Closing_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Door_Closing_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Bomb Pack/Objects/Door/c4a30378bfc85909f67651ac60bbabac6a4c62fa7bfde0c9366f0752c97eb4ca_Door_Closing_3.png",
+          "name": "Door_Closing_3.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Door_Closing_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Door_Closing_4.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Bomb Pack/Objects/Door/c4a30378bfc85909f67651ac60bbabac6a4c62fa7bfde0c9366f0752c97eb4ca_Door_Closing_4.png",
+          "name": "Door_Closing_4.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Door_Closing_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Door_Closing_5.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Bomb Pack/Objects/Door/cf63215d6e61ab39a3c0af84abdc9d74a21601c72078be57c1b74fa732d6d642_Door_Closing_5.png",
+          "name": "Door_Closing_5.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Door_Opening_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Door_Opening_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Bomb Pack/Objects/Door/872440f9321bc83d4317c3d70200b8b04da2bca3a574cd9c9d3aca27472b5785_Door_Opening_1.png",
+          "name": "Door_Opening_1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Door_Opening_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Door_Opening_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Bomb Pack/Objects/Door/188b41d1cd7ba282fab20d4f32ae1c67dabcc5583a49061787b77d36a8601b5e_Door_Opening_2.png",
+          "name": "Door_Opening_2.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Door_Opening_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Door_Opening_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Bomb Pack/Objects/Door/2eeb688fb5c3da8ccb2576cdf2e426ae8b728a13e077b477b78de321659a57c6_Door_Opening_3.png",
+          "name": "Door_Opening_3.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Door_Opening_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Door_Opening_4.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Bomb Pack/Objects/Door/2eeb688fb5c3da8ccb2576cdf2e426ae8b728a13e077b477b78de321659a57c6_Door_Opening_4.png",
+          "name": "Door_Opening_4.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Door_Opening_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Door_Opening_5.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Bomb Pack/Objects/Door/188b41d1cd7ba282fab20d4f32ae1c67dabcc5583a49061787b77d36a8601b5e_Door_Opening_5.png",
+          "name": "Door_Opening_5.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Floor Stairs.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Floor Stairs.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/16x16 Dungeon Tileset/Floor/25934c73cd9c63452b39190c8e956efc5ee97297dd6678db67a024b9a6f2de7e_Floor Stairs.png",
+          "name": "Floor Stairs.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Stairs.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Stairs.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Platformer Pack/Objects/f5dc742c2f73291cb5a0232b7f4795155b09d3a9adf224ae51c11ce3b48f348e_Stairs.png",
+          "name": "Stairs.png"
+        }
       }
     ],
     "resourceFolders": []
@@ -727,7 +972,7 @@
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/untitled-scene"
+      "referenceTo": "/layouts/ash-lower-gf"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,

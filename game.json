@@ -1,5 +1,5 @@
 {
-  "firstLayout": "Computer",
+  "firstLayout": "Intro",
   "gdVersion": {
     "build": 99,
     "major": 4,
@@ -707,19 +707,19 @@
   "layouts": [
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/computer3-fullscreen-poem1"
+      "referenceTo": "/layouts/intro"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/computer2-desktop"
+      "referenceTo": "/layouts/intro-poem1"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/computer"
+      "referenceTo": "/layouts/computer-desktop1"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/video1-poem1"
+      "referenceTo": "/layouts/computer-desktop2"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,

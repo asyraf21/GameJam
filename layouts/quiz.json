@@ -614,6 +614,15 @@
             "Answer_C3",
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "ResetObjectTimer"
+          },
+          "parameters": [
+            "Question_C0",
+            "\"QuestionTimer\""
+          ]
         }
       ]
     },
@@ -622,11 +631,13 @@
       "conditions": [
         {
           "type": {
-            "value": "MouseButtonReleased"
+            "value": "CompareObjectTimer"
           },
           "parameters": [
-            "",
-            "Left"
+            "Question_C0",
+            "\"QuestionTimer\"",
+            ">=",
+            "3"
           ]
         },
         {
@@ -638,6 +649,15 @@
             "",
             "",
             ""
+          ]
+        },
+        {
+          "type": {
+            "value": "MouseButtonReleased"
+          },
+          "parameters": [
+            "",
+            "Left"
           ]
         }
       ],

@@ -23,7 +23,24 @@
   },
   "objectsGroups": [],
   "variables": [],
-  "instances": [],
+  "instances": [
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 32,
+      "height": 163,
+      "layer": "",
+      "name": "volume",
+      "persistentUuid": "a4c8e129-2152-43cd-b332-9eb47c8c7f5a",
+      "width": 597,
+      "x": 564,
+      "y": 294,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    }
+  ],
   "objects": [],
   "objectsFolderStructure": {
     "folderName": "__ROOT"

@@ -871,6 +871,1198 @@
       },
       {
         "alwaysLoaded": false,
+        "file": "assets/Toggle_Crouch_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Toggle_Crouch_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 8/749554e66fec839c021194c3e90b6517bcdcfa64a088b7b07caf4f1371e4c8d5_Toggle_Crouch_1.png",
+          "name": "Toggle_Crouch_1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Toggle_Crouch_6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Toggle_Crouch_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 8/83a36459af1aa4a0de9a834d31ae8ea9fddb88d58d4e5ec553b31a5b799eb389_Toggle_Crouch_2.png",
+          "name": "Toggle_Crouch_2.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Toggle_CrouchingShooting_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Toggle_CrouchingShooting_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 8/368e07c8e328e531413b447b561c10b69ccd3fd27c6e79159b140c6ef4cf72cd_Toggle_CrouchingShooting_1.png",
+          "name": "Toggle_CrouchingShooting_1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Toggle_CrouchingShooting_6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Toggle_CrouchingShooting_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 8/5899bfa738b74d41cc17d272df965efa9301a9bd325f6f333d39fde6832300cc_Toggle_CrouchingShooting_2.png",
+          "name": "Toggle_CrouchingShooting_2.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Toggle_Death_15.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Toggle_Death_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 8/3bbc6618d966b314941dcd0ecd15f158073fbdfabb9c14fc919371f86d08a7d3_Toggle_Death_1.png",
+          "name": "Toggle_Death_1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Toggle_Death_16.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Toggle_Death_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 8/bb52507e0b826dfe2bf33a1dbd7e6a0f78c50ffdd842ddca6fd58be890c93454_Toggle_Death_2.png",
+          "name": "Toggle_Death_2.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Toggle_Death_17.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Toggle_Death_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 8/3dbb273db05c9480414cceffe5fc7337028ea829f6438092e9c1c9f87f8a2b51_Toggle_Death_3.png",
+          "name": "Toggle_Death_3.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Toggle_Death_18.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Toggle_Death_4.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 8/7dca3bce2ba45be8488cb2c13b7a010b4169b210b6088a8f8f8ba564f7b22126_Toggle_Death_4.png",
+          "name": "Toggle_Death_4.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Toggle_Death_19.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Toggle_Death_5.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 8/b2eb648759e819f98aa33104165b5f7112faff14841335ca4f861308bcec805a_Toggle_Death_5.png",
+          "name": "Toggle_Death_5.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Toggle_Death_20.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Toggle_Death_6.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 8/cf97fd3b5f8e15b12f529c6af554f6be5b4c6cf66fa7f3dcce67c8ec8ea93fff_Toggle_Death_6.png",
+          "name": "Toggle_Death_6.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Toggle_Death_21.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Toggle_Death_7.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 8/7a28b4eb78595f8b1b4208e4044ceabfdbb1a7a48a90434ee8082e6f8a2436ad_Toggle_Death_7.png",
+          "name": "Toggle_Death_7.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Toggle_Falling3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Toggle_Falling.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 8/2920a4992093bc72441efba929b86d91f2c8bc1561a91b29e9af9eb2161c13ed_Toggle_Falling.png",
+          "name": "Toggle_Falling.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Toggle_FallingShooting3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Toggle_FallingShooting.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 8/81aa3d178140a631f88431dfe7c90c5d8b477ecc639baa0bc4ccf9a75a643acb_Toggle_FallingShooting.png",
+          "name": "Toggle_FallingShooting.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Toggle_HalfHealthCrouch_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Toggle_HalfHealthCrouch_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 8/ee8417dea9ee5b57130b58e41fdb053f48c244b169dd3788a246ee1d8a65a95a_Toggle_HalfHealthCrouch_1.png",
+          "name": "Toggle_HalfHealthCrouch_1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Toggle_HalfHealthCrouch_6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Toggle_HalfHealthCrouch_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 8/6673adb406b9f2c7035bf29ea41247eef4c54a20471c2980a74bc72ce98d5478_Toggle_HalfHealthCrouch_2.png",
+          "name": "Toggle_HalfHealthCrouch_2.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Toggle_HalfHealthCrouchingShooting_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Toggle_HalfHealthCrouchingShooting_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 8/73685606e91388ea1290d44219cf877fdada33f2ff2366d27daebb577d7274fa_Toggle_HalfHealthCrouchingShooting_1.png",
+          "name": "Toggle_HalfHealthCrouchingShooting_1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Toggle_HalfHealthCrouchingShooting_6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Toggle_HalfHealthCrouchingShooting_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 8/2d0279ab6f56a8899a5e182ea817a6fec90b518b486178ca3325ec56b9f9b4b1_Toggle_HalfHealthCrouchingShooting_2.png",
+          "name": "Toggle_HalfHealthCrouchingShooting_2.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Toggle_HalfHealthFalling3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Toggle_HalfHealthFalling.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 8/de30cb21abbd1379cfeb188247ab57014dd416c5b1d3be13de356757f6e29e7f_Toggle_HalfHealthFalling.png",
+          "name": "Toggle_HalfHealthFalling.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Toggle_HalfHealthFallingShooting3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Toggle_HalfHealthFallingShooting.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 8/a7641cefa929cecf4c61afa4e9e11caf2c4730d6acbe169e71f8aa67e0733c26_Toggle_HalfHealthFallingShooting.png",
+          "name": "Toggle_HalfHealthFallingShooting.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Toggle_HalfHealthIdleShooting_11.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Toggle_HalfHealthIdleShooting_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 8/7369a397d0fdf23d83fe2481f4fba6c00c05362fc54d1f134c1d9ebabf8685c9_Toggle_HalfHealthIdleShooting_1.png",
+          "name": "Toggle_HalfHealthIdleShooting_1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Toggle_HalfHealthIdleShooting_12.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Toggle_HalfHealthIdleShooting_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 8/0da88109c14dd22b3179d23b2d4c43e8589e7279551cc8b4805db4f4f54f9a60_Toggle_HalfHealthIdleShooting_2.png",
+          "name": "Toggle_HalfHealthIdleShooting_2.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Toggle_HalfHealthIdleShooting_13.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Toggle_HalfHealthIdleShooting_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 8/6d9314edb4dcfa40c4a288351e1bebbd7ad9a26adca3c45206b7cf68567e14a0_Toggle_HalfHealthIdleShooting_3.png",
+          "name": "Toggle_HalfHealthIdleShooting_3.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Toggle_HalfHealthIdleShooting_14.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Toggle_HalfHealthIdleShooting_4.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 8/b610505ce51c7f6658abc61fc8cf7271e90cdb62e372cebb69012fdd6d50e9f6_Toggle_HalfHealthIdleShooting_4.png",
+          "name": "Toggle_HalfHealthIdleShooting_4.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Toggle_HalfHealthIdleShooting_15.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Toggle_HalfHealthIdleShooting_5.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 8/7cac55ee06074fd4f036558690c9632e8a41affb283c8730d547bd1adffb4fe5_Toggle_HalfHealthIdleShooting_5.png",
+          "name": "Toggle_HalfHealthIdleShooting_5.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Toggle_HalfHealthIdle_11.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Toggle_HalfHealthIdle_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 8/f03c48694785d96de208d650c9f9ca5dc0952a15bfaeda50c66c5237c4055e58_Toggle_HalfHealthIdle_1.png",
+          "name": "Toggle_HalfHealthIdle_1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Toggle_HalfHealthIdle_12.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Toggle_HalfHealthIdle_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 8/4909eb3e06ffa1ce5811bc270d9d9dc927dacfc297311804c61a5ed422b483ec_Toggle_HalfHealthIdle_2.png",
+          "name": "Toggle_HalfHealthIdle_2.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Toggle_HalfHealthIdle_13.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Toggle_HalfHealthIdle_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 8/c1eefa319e2d5bf7afe21ef80784e1f051c171fa5c112db21f0c62c402f7b026_Toggle_HalfHealthIdle_3.png",
+          "name": "Toggle_HalfHealthIdle_3.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Toggle_HalfHealthIdle_14.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Toggle_HalfHealthIdle_4.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 8/ec3cb4f3caabe64a0cb305cd0e507c540ac5ba2d78173412574d5b67f380bc52_Toggle_HalfHealthIdle_4.png",
+          "name": "Toggle_HalfHealthIdle_4.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Toggle_HalfHealthIdle_15.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Toggle_HalfHealthIdle_5.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 8/d9222672b8ebec519e0f057a4a9ac76be345a27f9784c709ecf5ce3f769874b1_Toggle_HalfHealthIdle_5.png",
+          "name": "Toggle_HalfHealthIdle_5.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Toggle_HalfHealthJump3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Toggle_HalfHealthJump.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 8/c2817fb8f071e47f63264568ef194601063a2ae56090f65357ab0b03ca453021_Toggle_HalfHealthJump.png",
+          "name": "Toggle_HalfHealthJump.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Toggle_HalfHealthJumpShooting3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Toggle_HalfHealthJumpShooting.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 8/f44270f409054302c00adfa055fdde3f04e04220380a988571332de34efb16a1_Toggle_HalfHealthJumpShooting.png",
+          "name": "Toggle_HalfHealthJumpShooting.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Toggle_HalfHealthLanded3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Toggle_HalfHealthLanded.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 8/d214863d9b3a7caf0ec95716edaaabecae040c049eadc4da1a74f24932d9d99b_Toggle_HalfHealthLanded.png",
+          "name": "Toggle_HalfHealthLanded.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Toggle_HalfHealthLandedShooting3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Toggle_HalfHealthLandedShooting.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 8/e8178b4cdd8c92db62efa07e7b2727bfdf8842751ec0426e536e71d7707e94f3_Toggle_HalfHealthLandedShooting.png",
+          "name": "Toggle_HalfHealthLandedShooting.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Toggle_HalfHealthPunch_15.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Toggle_HalfHealthPunch_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 8/3a8d03a48bf4732c5d89ba5123a818a13df265cb4e329f303c84044be53d1c72_Toggle_HalfHealthPunch_1.png",
+          "name": "Toggle_HalfHealthPunch_1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Toggle_HalfHealthPunch_16.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Toggle_HalfHealthPunch_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 8/39d782abfeee1bb569da8a359c8ea4b8ec88c9bc879bd64f4bedf08dd5540704_Toggle_HalfHealthPunch_2.png",
+          "name": "Toggle_HalfHealthPunch_2.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Toggle_HalfHealthPunch_17.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Toggle_HalfHealthPunch_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 8/8038815077457850b7122d4a8cb9d2a3bdb9aa017519111774927b4ad93ed36e_Toggle_HalfHealthPunch_3.png",
+          "name": "Toggle_HalfHealthPunch_3.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Toggle_HalfHealthPunch_18.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Toggle_HalfHealthPunch_4.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 8/df5ef6224b1f0fe0f9385e0273f0bc2775b225bbfba925add70aeb68413f580a_Toggle_HalfHealthPunch_4.png",
+          "name": "Toggle_HalfHealthPunch_4.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Toggle_HalfHealthPunch_19.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Toggle_HalfHealthPunch_5.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 8/8c40417fa576154c3bc060c3cf3ff25afe595594cfd3d607ef9d6cf7ae225b09_Toggle_HalfHealthPunch_5.png",
+          "name": "Toggle_HalfHealthPunch_5.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Toggle_HalfHealthPunch_20.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Toggle_HalfHealthPunch_6.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 8/b1862ab9dc1f7ec98bb08d541432b5d2c47e07cac419988f5a435e1f8b95af33_Toggle_HalfHealthPunch_6.png",
+          "name": "Toggle_HalfHealthPunch_6.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Toggle_HalfHealthPunch_21.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Toggle_HalfHealthPunch_7.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 8/b2d626322e43b8d08749d8d09e27e1432d489b086ac36312614b04276f6baad4_Toggle_HalfHealthPunch_7.png",
+          "name": "Toggle_HalfHealthPunch_7.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Toggle_HalfHealthRun_13.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Toggle_HalfHealthRun_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 8/7bb4ecf5c6be5f8722d6f4607c10191a399d1b48d003c08b0c7741c8d96a0383_Toggle_HalfHealthRun_1.png",
+          "name": "Toggle_HalfHealthRun_1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Toggle_HalfHealthRun_14.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Toggle_HalfHealthRun_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 8/8f147accfcdbf3779c5cd35be58c8d8e4a7b478e405803bf6014067f93c98ae6_Toggle_HalfHealthRun_2.png",
+          "name": "Toggle_HalfHealthRun_2.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Toggle_HalfHealthRun_15.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Toggle_HalfHealthRun_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 8/f0cd914a44044264f3310bfa193fdecd3dd64ea3df6ea756f5d473007bb24d47_Toggle_HalfHealthRun_3.png",
+          "name": "Toggle_HalfHealthRun_3.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Toggle_HalfHealthRun_16.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Toggle_HalfHealthRun_4.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 8/84548418eb3612d99b114cfc8373709c697dcd521f6b2b074d5a8977776ce3a6_Toggle_HalfHealthRun_4.png",
+          "name": "Toggle_HalfHealthRun_4.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Toggle_HalfHealthRun_17.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Toggle_HalfHealthRun_5.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 8/31adf94c1b267aa475f9cada4006f74a29552a2b5d08970031ceb1ab80b7df62_Toggle_HalfHealthRun_5.png",
+          "name": "Toggle_HalfHealthRun_5.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Toggle_HalfHealthRun_18.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Toggle_HalfHealthRun_6.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 8/ee59952a8570bd8c64463f16e107632bcfab469a73833a2685a6afac620e2117_Toggle_HalfHealthRun_6.png",
+          "name": "Toggle_HalfHealthRun_6.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Toggle_HalfHealthRunningShooting_13.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Toggle_HalfHealthRunningShooting_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 8/135e9cbaf0f471a7b8515ee6f06596d611732221d67c16dcc12b16e0e8ced405_Toggle_HalfHealthRunningShooting_1.png",
+          "name": "Toggle_HalfHealthRunningShooting_1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Toggle_HalfHealthRunningShooting_14.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Toggle_HalfHealthRunningShooting_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 8/6d24920e00d73e80b6f1da0184368fc3e401ebac97f242f0ab9caafd17842545_Toggle_HalfHealthRunningShooting_2.png",
+          "name": "Toggle_HalfHealthRunningShooting_2.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Toggle_HalfHealthRunningShooting_15.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Toggle_HalfHealthRunningShooting_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 8/a46f6dfa500416fbb166b62297ed434dd6e5af385915201e55d5edb82f7075eb_Toggle_HalfHealthRunningShooting_3.png",
+          "name": "Toggle_HalfHealthRunningShooting_3.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Toggle_HalfHealthRunningShooting_16.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Toggle_HalfHealthRunningShooting_4.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 8/5a00f9bfcee681a292bc5ed9991d75ad2df88faa933d403aac7554acfe0c1027_Toggle_HalfHealthRunningShooting_4.png",
+          "name": "Toggle_HalfHealthRunningShooting_4.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Toggle_HalfHealthRunningShooting_17.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Toggle_HalfHealthRunningShooting_5.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 8/850f1dc4eacf260df4909872ea06f8cd5d34c2aedc87a1988821e157e8bee744_Toggle_HalfHealthRunningShooting_5.png",
+          "name": "Toggle_HalfHealthRunningShooting_5.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Toggle_HalfHealthRunningShooting_18.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Toggle_HalfHealthRunningShooting_6.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 8/d802151167b039f94ae4203fdc0a92cc20fbe1b400ad5d12fa8f7b49e5e0d58d_Toggle_HalfHealthRunningShooting_6.png",
+          "name": "Toggle_HalfHealthRunningShooting_6.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Toggle_Hurt_13.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Toggle_Hurt_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 8/b4f4a229633ec5e68ce651161b9cf7a5a398c867f6785a96b01432b0bb691ebd_Toggle_Hurt_1.png",
+          "name": "Toggle_Hurt_1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Toggle_Hurt_14.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Toggle_Hurt_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 8/65a0f24c72bfd8957171a6a57ae9559041b73b981a7a209f5fcc9611790da11f_Toggle_Hurt_2.png",
+          "name": "Toggle_Hurt_2.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Toggle_Hurt_15.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Toggle_Hurt_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 8/ec9f5d030b690027d813def975f90fec1c84bbd1b318bcd9ea19c7128bd06b49_Toggle_Hurt_3.png",
+          "name": "Toggle_Hurt_3.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Toggle_Hurt_16.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Toggle_Hurt_4.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 8/30a1c3ecf0e34992061db27a4e06808d3456e1cc1b12d69418ea8c040ee6cad1_Toggle_Hurt_4.png",
+          "name": "Toggle_Hurt_4.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Toggle_Hurt_17.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Toggle_Hurt_5.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 8/c9d668f15b9ee24e98bbd21b0c9dc38c45d0eb56917ba92091db404ec579883e_Toggle_Hurt_5.png",
+          "name": "Toggle_Hurt_5.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Toggle_Hurt_18.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Toggle_Hurt_6.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 8/ee09d9d6f2ba51e1c77a30866ba7c83a48c55aaa06d4499cc1237ede822e4975_Toggle_Hurt_6.png",
+          "name": "Toggle_Hurt_6.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Toggle_IdleShooting_11.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Toggle_IdleShooting_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 8/0f9a4a5ec51e8b58f3b8cca2ce176b022ae6c72fdbd47565bd3fc588afc87e0f_Toggle_IdleShooting_1.png",
+          "name": "Toggle_IdleShooting_1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Toggle_IdleShooting_12.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Toggle_IdleShooting_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 8/f2e3198a77df1f772e1dd7bbc10377e31d1d678627a36ecd85fc706429ab976a_Toggle_IdleShooting_2.png",
+          "name": "Toggle_IdleShooting_2.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Toggle_IdleShooting_13.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Toggle_IdleShooting_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 8/388c1273be2df1d7f08c6472457286f030af23f7ee46b2495759f5f589c370a9_Toggle_IdleShooting_3.png",
+          "name": "Toggle_IdleShooting_3.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Toggle_IdleShooting_14.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Toggle_IdleShooting_4.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 8/ddfbe897953b58ffa508fe8258b39ec5b64fe2a0b8f592a6b7a4556a6499dd29_Toggle_IdleShooting_4.png",
+          "name": "Toggle_IdleShooting_4.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Toggle_IdleShooting_15.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Toggle_IdleShooting_5.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 8/b4e4fbaf44dbc3e4a2db10a122dd83d15991c1bcd63ce6228f14387e8c7bcab2_Toggle_IdleShooting_5.png",
+          "name": "Toggle_IdleShooting_5.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Toggle_Idle_11.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Toggle_Idle_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 8/57dd1b91393b87c0fb1acf0784591a723442b149b5c36771bc1c696c3015ab8e_Toggle_Idle_1.png",
+          "name": "Toggle_Idle_1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Toggle_Idle_12.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Toggle_Idle_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 8/f7191580238b3f7c97cb058baa757dbb2ac23d64cbf812a8a8a9bc3397f15f0d_Toggle_Idle_2.png",
+          "name": "Toggle_Idle_2.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Toggle_Idle_13.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Toggle_Idle_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 8/05704ddd5d43e9e32467578284fb4ce2c95160089b2773f1979ea01fd1bf318e_Toggle_Idle_3.png",
+          "name": "Toggle_Idle_3.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Toggle_Idle_14.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Toggle_Idle_4.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 8/c0818cb58e5ffee4df55fd267ca93be8ac05e3c555ce8297de06c20c8f464e06_Toggle_Idle_4.png",
+          "name": "Toggle_Idle_4.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Toggle_Idle_15.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Toggle_Idle_5.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 8/d0babf751688f7b11efe7517d283dd1674d8b6e995b0a000a50578b14376e855_Toggle_Idle_5.png",
+          "name": "Toggle_Idle_5.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Toggle_Jump3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Toggle_Jump.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 8/1a3eb4c0c6a9352cbfba70fe21ec4bce1c6ac92a829f59ae6e4afcb47a4daece_Toggle_Jump.png",
+          "name": "Toggle_Jump.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Toggle_JumpShooting3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Toggle_JumpShooting.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 8/9b18b8ba16197967b741ef8a5b3d065746c44026d84653600e40d477f68c8965_Toggle_JumpShooting.png",
+          "name": "Toggle_JumpShooting.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Toggle_Landed3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Toggle_Landed.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 8/a1363a45712b56f75bde1b6a3aead60d7e547d0fd49cc3c7c35e56ce7b75e555_Toggle_Landed.png",
+          "name": "Toggle_Landed.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Toggle_LandedShooting3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Toggle_LandedShooting.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 8/2bba843476010ac36ff2b62b1af05dc5fafc8b904c9b5c660ad5710a6af45415_Toggle_LandedShooting.png",
+          "name": "Toggle_LandedShooting.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Toggle_Punch_15.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Toggle_Punch_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 8/3728545466b469dc4a77cd9aea772a04836885fc03603803be30bbe39c6fe6a4_Toggle_Punch_1.png",
+          "name": "Toggle_Punch_1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Toggle_Punch_16.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Toggle_Punch_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 8/45dff390d907a4d4c0db0221a3585f11b8802390cdd7421b80f0a8178f24f099_Toggle_Punch_2.png",
+          "name": "Toggle_Punch_2.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Toggle_Punch_17.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Toggle_Punch_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 8/2b1b723705e443b334590bafc93cbe8062e0cdb55fedbb47bc19362b73779a66_Toggle_Punch_3.png",
+          "name": "Toggle_Punch_3.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Toggle_Punch_18.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Toggle_Punch_4.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 8/88247326c3927d1e0a0464f74d9253e585c02ffa5f206c86f06d238254cd90cd_Toggle_Punch_4.png",
+          "name": "Toggle_Punch_4.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Toggle_Punch_19.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Toggle_Punch_5.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 8/b75ef4695b3936f56eca5f25639e69305783852e40b2cd994b2c3a0f63ecc67c_Toggle_Punch_5.png",
+          "name": "Toggle_Punch_5.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Toggle_Punch_20.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Toggle_Punch_6.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 8/8be7d9587d42e03ff4ee5a97f57bceeaf711e7420a1c00bd525782133ca94d60_Toggle_Punch_6.png",
+          "name": "Toggle_Punch_6.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Toggle_Punch_21.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Toggle_Punch_7.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 8/32599588b0b2e68276387c8b159032691c2af80124ccad3b262e21cf85cfac8f_Toggle_Punch_7.png",
+          "name": "Toggle_Punch_7.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Toggle_Run_13.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Toggle_Run_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 8/3453ba5308860627ba6e71e3f9968723f5fd3a073a8bbc91007dd3329abe4325_Toggle_Run_1.png",
+          "name": "Toggle_Run_1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Toggle_Run_14.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Toggle_Run_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 8/323dd03a4c605d0193f6c829a4a860ae58ee72446299b48d60a4ff7b10f95645_Toggle_Run_2.png",
+          "name": "Toggle_Run_2.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Toggle_Run_15.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Toggle_Run_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 8/da08e4db8415a307bac4762e129b83ae477dab75ffce9c945271f0c76e9262eb_Toggle_Run_3.png",
+          "name": "Toggle_Run_3.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Toggle_Run_16.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Toggle_Run_4.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 8/a492699408c835dfab0449b7891ca32cfb9bfe4c8d3a8f4a8052f1fa520c37f5_Toggle_Run_4.png",
+          "name": "Toggle_Run_4.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Toggle_Run_17.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Toggle_Run_5.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 8/c18ae3c8619cab00f3397e7a4b5b983a24fdeb8b08e2528811780025d1504427_Toggle_Run_5.png",
+          "name": "Toggle_Run_5.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Toggle_Run_18.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Toggle_Run_6.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 8/ec852cbb521d9cae3f73201c7aa3e4660b8edb2ccb90acc9b632e2568bcc5719_Toggle_Run_6.png",
+          "name": "Toggle_Run_6.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Toggle_RunningShooting_13.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Toggle_RunningShooting_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 8/98b45a3738821e963bb4dfb6f6970cacf62f543b47ffcfd5068f8f73e8ae1600_Toggle_RunningShooting_1.png",
+          "name": "Toggle_RunningShooting_1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Toggle_RunningShooting_14.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Toggle_RunningShooting_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 8/9d145762cfa00585c51b9c819e386dddfa94c2c4455ffbd7ace1117a12c05c23_Toggle_RunningShooting_2.png",
+          "name": "Toggle_RunningShooting_2.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Toggle_RunningShooting_15.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Toggle_RunningShooting_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 8/df410b1745941afe4a119a47fe1714fe5f62f00533a8f42de755eaf36c076272_Toggle_RunningShooting_3.png",
+          "name": "Toggle_RunningShooting_3.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Toggle_RunningShooting_16.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Toggle_RunningShooting_4.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 8/f9b95d11bf2a562936c3e1be1d30c4e85a34003859bcdae8abc6d89e21103587_Toggle_RunningShooting_4.png",
+          "name": "Toggle_RunningShooting_4.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Toggle_RunningShooting_17.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Toggle_RunningShooting_5.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 8/5c227f57a0180686182223b52cd5d3be0b606466ab4bddb2ef1c5199d7106857_Toggle_RunningShooting_5.png",
+          "name": "Toggle_RunningShooting_5.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Toggle_RunningShooting_18.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Toggle_RunningShooting_6.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 8/f8a87eed7c492666ade4ba82fa74d464bee03fe7cd85c32f9f808f3a3cdd1513_Toggle_RunningShooting_6.png",
+          "name": "Toggle_RunningShooting_6.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Computer monitor3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Computer monitor3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
         "file": "assets/pexels-julie-aagaard-2734612.jpg",
         "kind": "image",
         "metadata": "",
@@ -1131,6 +2323,14 @@
   ],
   "externalEvents": [],
   "eventsFunctionsExtensions": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/behaviorremapper"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/smoothcamera"
+    },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/eventsFunctionsExtensions/flash"

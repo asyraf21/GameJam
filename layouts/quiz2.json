@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.4194339782759067,
+    "zoomFactor": 0.6672773998329987,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -65,8 +65,8 @@
       "name": "Answer_C1",
       "persistentUuid": "93ea69c0-16f0-4194-ae8a-ea4a8ab7240c",
       "width": 520,
-      "x": 192,
-      "y": 230,
+      "x": 194,
+      "y": 505,
       "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
@@ -81,7 +81,7 @@
       "persistentUuid": "08193df4-7b6e-4945-90a7-791fa4b4bb05",
       "width": 0,
       "x": 192,
-      "y": 359,
+      "y": 253,
       "zOrder": 4,
       "numberProperties": [],
       "stringProperties": [],
@@ -95,8 +95,8 @@
       "name": "Answer_C3",
       "persistentUuid": "29bbfee4-23c5-40f8-abfc-355a9e3164a7",
       "width": 0,
-      "x": 192,
-      "y": 501,
+      "x": 189,
+      "y": 377,
       "zOrder": 5,
       "numberProperties": [],
       "stringProperties": [],
@@ -134,7 +134,7 @@
           "CurrentCharacter": ""
         }
       ],
-      "string": "What is a correct syntax to output \"Hello World\" in C?",
+      "string": "How many days are there in a year?",
       "font": "44b20c5be998f2190b2ac28fd71a838b278069de9cdcfc130fa6ac219a841ca6_NewTegomin-Regular.ttf",
       "textAlignment": "left",
       "characterSize": 35,
@@ -163,7 +163,7 @@
           "CurrentCharacter": ""
         }
       ],
-      "string": "1. printf(\"Hello World\");",
+      "string": "2. 312",
       "font": "45bf060c897266594bc78a4b12350be50bbc315510afc75ff4336b62228e68dc_MPLUS1p-Black.ttf",
       "textAlignment": "left",
       "characterSize": 30,
@@ -192,7 +192,7 @@
           "CurrentCharacter": ""
         }
       ],
-      "string": "2. System.out.printline(\"Hello World\")",
+      "string": "1. 367",
       "font": "45bf060c897266594bc78a4b12350be50bbc315510afc75ff4336b62228e68dc_MPLUS1p-Black.ttf",
       "textAlignment": "left",
       "characterSize": 30,
@@ -221,7 +221,7 @@
           "CurrentCharacter": ""
         }
       ],
-      "string": "3. cout << \"Hello World\"",
+      "string": "3. 365",
       "font": "45bf060c897266594bc78a4b12350be50bbc315510afc75ff4336b62228e68dc_MPLUS1p-Black.ttf",
       "textAlignment": "left",
       "characterSize": 30,
@@ -230,66 +230,6 @@
         "g": 0,
         "r": 0
       }
-    },
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "",
-      "name": "Shot",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets/25053-9-gunshot-hd.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 780,
-                        "y": 243
-                      },
-                      {
-                        "x": 1131,
-                        "y": 243
-                      },
-                      {
-                        "x": 1131,
-                        "y": 839
-                      },
-                      {
-                        "x": 780,
-                        "y": 839
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
     }
   ],
   "objectsFolderStructure": {
@@ -309,9 +249,6 @@
       },
       {
         "objectName": "Answer_C3"
-      },
-      {
-        "objectName": "Shot"
       }
     ]
   },

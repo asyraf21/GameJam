@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.8141881203710047,
+    "zoomFactor": 0.7619362677197727,
     "windowMask": false
   },
   "objectsGroups": [
@@ -51,38 +51,6 @@
       "x": 981,
       "y": 291,
       "zOrder": 1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 127,
-      "layer": "Platform",
-      "name": "NewTiledSprite",
-      "persistentUuid": "96988c44-240f-414a-b257-c9d86f15b40b",
-      "width": 448,
-      "x": 825,
-      "y": 292,
-      "zOrder": 0,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 127,
-      "layer": "Platform",
-      "name": "NewTiledSprite",
-      "persistentUuid": "d2474e9a-f8b2-403b-9216-076cd050803e",
-      "width": 441,
-      "x": 348,
-      "y": 486,
-      "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -201,47 +169,6 @@
     }
   ],
   "objects": [
-    {
-      "assetStoreId": "3b2a519af4ed26bc452be64dc0d27848a979b8da86d799d3984f0520cc7de25c",
-      "name": "Building3Small",
-      "type": "Scene3D::Model3DObject",
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "content": {
-        "centerLocation": "ModelOrigin",
-        "depth": 255,
-        "height": 255,
-        "keepAspectRatio": true,
-        "materialType": "StandardWithoutMetalness",
-        "modelResourceName": "Building 3 Small.glb",
-        "originLocation": "ModelOrigin",
-        "rotationX": 90,
-        "rotationY": 0,
-        "rotationZ": 0,
-        "width": 255,
-        "animations": []
-      }
-    },
-    {
-      "assetStoreId": "",
-      "height": 32,
-      "name": "NewTiledSprite",
-      "texture": "Isometric Voxel Mossy Stone.png",
-      "type": "TiledSpriteObject::TiledSprite",
-      "width": 32,
-      "variables": [],
-      "effects": [],
-      "behaviors": [
-        {
-          "name": "Platform",
-          "type": "PlatformBehavior::PlatformBehavior",
-          "canBeGrabbed": true,
-          "platformType": "NormalPlatform",
-          "yGrabOffset": 0
-        }
-      ]
-    },
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
@@ -492,7 +419,7 @@
         "opacity": 255,
         "loop": true,
         "volume": 100,
-        "videoResource": "pexels-ivan-samkov-6955102 (720p).mp4"
+        "videoResource": "assets/video/pexels-ivan-samkov-6955102 (360p).mp4"
       }
     },
     {
@@ -565,25 +492,6 @@
               ]
             }
           ]
-        }
-      ]
-    },
-    {
-      "assetStoreId": "",
-      "height": 32,
-      "name": "Button",
-      "texture": "Isometric Voxel Mossy Stone.png",
-      "type": "TiledSpriteObject::TiledSprite",
-      "width": 32,
-      "variables": [],
-      "effects": [],
-      "behaviors": [
-        {
-          "name": "Platform",
-          "type": "PlatformBehavior::PlatformBehavior",
-          "canBeGrabbed": true,
-          "platformType": "NormalPlatform",
-          "yGrabOffset": 0
         }
       ]
     },
@@ -1144,15 +1052,6 @@
     "folderName": "__ROOT",
     "children": [
       {
-        "objectName": "Building3Small"
-      },
-      {
-        "objectName": "NewTiledSprite"
-      },
-      {
-        "objectName": "Button"
-      },
-      {
         "objectName": "Player"
       },
       {
@@ -1417,6 +1316,18 @@
             "Menu_List",
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "de3a55a1dd3cc89f79e916b4ecc0c6344a32fdb6f6731d25b2f95836844e83b5_1up 10.aac",
+            "",
+            "",
+            ""
+          ]
         }
       ]
     },
@@ -1457,6 +1368,34 @@
           },
           "parameters": [
             "Video1"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "PanelSpriteSlider::PanelSpriteSlider::Value"
+          },
+          "parameters": [
+            "volume",
+            "=",
+            "0",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "\"Ash-Lower GF\"",
+            ""
           ]
         }
       ]
@@ -1742,20 +1681,12 @@
       "type": "FlippableCapability::FlippableBehavior"
     },
     {
-      "name": "Object3D",
-      "type": "Scene3D::Base3DBehavior"
-    },
-    {
       "name": "Opacity",
       "type": "OpacityCapability::OpacityBehavior"
     },
     {
       "name": "Pathfinding",
       "type": "PathfindingBehavior::PathfindingBehavior"
-    },
-    {
-      "name": "Platform",
-      "type": "PlatformBehavior::PlatformBehavior"
     },
     {
       "name": "PlatformerObject",

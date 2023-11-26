@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.9934433498259723,
+    "zoomFactor": 0.5843784410741018,
     "windowMask": false
   },
   "objectsGroups": [
@@ -107,7 +107,7 @@
       "angle": 0,
       "customSize": false,
       "height": 0,
-      "layer": "",
+      "layer": "Platform",
       "name": "IntroText",
       "persistentUuid": "2fa2c82c-ed74-4b54-9eb0-edbe6e8c22a9",
       "width": 0,
@@ -161,22 +161,6 @@
       "x": -217,
       "y": -1019,
       "zOrder": 0,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 0,
-      "height": 67,
-      "layer": "PC",
-      "name": "NewSprite",
-      "persistentUuid": "bb74aff5-645c-41dd-a869-f6050fcc264e",
-      "width": 67,
-      "x": 1049,
-      "y": 165,
-      "zOrder": 9,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -918,66 +902,6 @@
       ]
     },
     {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "",
-      "name": "NewSprite",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "circle.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 590,
-                        "y": 0
-                      },
-                      {
-                        "x": 590,
-                        "y": 590
-                      },
-                      {
-                        "x": 0,
-                        "y": 590
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
       "assetStoreId": "f23eb31ad33dd63f1937c8745105316ca530c28513c64b68a665975503c852a6",
       "name": "Menu_1",
       "type": "PanelSpriteButton::PanelSpriteButton",
@@ -1147,9 +1071,6 @@
       },
       {
         "objectName": "DesktopBG"
-      },
-      {
-        "objectName": "NewSprite"
       },
       {
         "objectName": "Menu_1"

@@ -2535,6 +2535,114 @@
         "name": "19333450.jpg",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "file": "assets/video/nekojirusou.mp4",
+        "kind": "video",
+        "metadata": "",
+        "name": "assets/video/nekojirusou.mp4",
+        "userAdded": false
+      },
+      {
+        "file": "assets/Run_02.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "5de189bcb6bd33d94771d296ecd55fd6ecebdcc3307a129c73cfe930f048ad58_Run_01.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/SoundEffects/Footsteps/DirtyGround/Run/5de189bcb6bd33d94771d296ecd55fd6ecebdcc3307a129c73cfe930f048ad58_Run_01.wav",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "file": "assets/Run_08.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "98fe9ca06b3d8cb78f045043ab1d61202a6013ba2613d092105bd2a363a4a513_Run_08.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/SoundEffects/Footsteps/DirtyGround/Run/98fe9ca06b3d8cb78f045043ab1d61202a6013ba2613d092105bd2a363a4a513_Run_08.wav",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "file": "assets/Run_03.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "028af6ff140e7c542165a7ad38c868b4283528e61e7ef4e6e22c1338de545701_Run_03.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/SoundEffects/Footsteps/DirtyGround/Run/028af6ff140e7c542165a7ad38c868b4283528e61e7ef4e6e22c1338de545701_Run_03.wav",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "file": "assets/Run_04.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "1eae4f4e95282d711a3fb18d91827c921428c02895d6fe2a87089b964afc9c14_Run_04.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/SoundEffects/Footsteps/DirtyGround/Run/1eae4f4e95282d711a3fb18d91827c921428c02895d6fe2a87089b964afc9c14_Run_04.wav",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "file": "assets/Run_05.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "89861edef331b324f30593acea986999440a5eefa8d292cd207f2d980faed402_Run_02.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/SoundEffects/Footsteps/DirtyGround/Run/89861edef331b324f30593acea986999440a5eefa8d292cd207f2d980faed402_Run_02.wav",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/dead_background.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/dead_background.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/19333449.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/19333449.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Blue Ribbon Scroll.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Blue Ribbon Scroll.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/16x16 RPG Item Pack/Items/ff53298241c117bd6e33c54af2681ca7b9bd2986a20976afcd3a492ffb759cec_Blue Ribbon Scroll.png",
+          "name": "Blue Ribbon Scroll.png"
+        }
       }
     ],
     "resourceFolders": []
@@ -2628,6 +2736,8 @@
       "effects": [],
       "behaviors": [
         {
+          "name": "Pathfinding",
+          "type": "PathfindingBehavior::PathfindingBehavior",
           "acceleration": 400,
           "allowDiagonals": true,
           "angleOffset": 0,
@@ -2638,10 +2748,8 @@
           "gridOffsetX": 0,
           "gridOffsetY": 0,
           "maxSpeed": 200,
-          "name": "Pathfinding",
           "rotateObject": false,
-          "smoothingMaxCellGap": 1,
-          "type": "PathfindingBehavior::PathfindingBehavior"
+          "smoothingMaxCellGap": 1
         },
         {
           "name": "RemapForTopdown",
@@ -2731,9 +2839,9 @@
           "Viewpoint": "Top-Down"
         },
         {
-          "ignoreDefaultControls": true,
           "name": "TopDownMovement",
           "type": "TopDownMovementBehavior::TopDownMovementBehavior",
+          "ignoreDefaultControls": true,
           "acceleration": 400,
           "allowDiagonals": true,
           "angleOffset": 0,

@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.546875,
+    "zoomFactor": 0.3797121001947931,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -30,7 +30,7 @@
       "depth": 1,
       "height": 805,
       "layer": "",
-      "name": "NewSprite",
+      "name": "DeadBackground",
       "persistentUuid": "53c441b5-e4be-4828-8986-25c603355204",
       "width": 1395,
       "x": -51,
@@ -76,7 +76,7 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "NewSprite",
+      "name": "DeadBackground",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -93,7 +93,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "dead_background.jpg",
+                  "image": "assets/dead_background.jpg",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -282,7 +282,7 @@
     "folderName": "__ROOT",
     "children": [
       {
-        "objectName": "NewSprite"
+        "objectName": "DeadBackground"
       },
       {
         "objectName": "Lose"

@@ -2200,6 +2200,10 @@
       "type": "FlippableCapability::FlippableBehavior"
     },
     {
+      "name": "Health",
+      "type": "Health::Health"
+    },
+    {
       "name": "Object3D",
       "type": "Scene3D::Base3DBehavior"
     },

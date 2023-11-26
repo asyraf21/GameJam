@@ -63,8 +63,8 @@
       "name": "NewText",
       "persistentUuid": "225f8a39-fdd0-445e-a918-b9709b3bd430",
       "width": 0,
-      "x": 70,
-      "y": 403,
+      "x": -2,
+      "y": 410,
       "zOrder": 4,
       "numberProperties": [],
       "stringProperties": [],
@@ -218,7 +218,7 @@
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "DON'T WORRY YOU ARE STILL ALIVE\nBUT LOOKING AT THIS PIC MAKE THE EFFORT WORTH RIGHT",
+      "string": "DON'T WORRY YOU ARE STILL ALIVE\nBUT LOOKING AT THIS PIC MAKES THE EFFORT WORTH IT, RIGHT?",
       "font": "44b20c5be998f2190b2ac28fd71a838b278069de9cdcfc130fa6ac219a841ca6_NewTegomin-Regular.ttf",
       "textAlignment": "center",
       "characterSize": 40,
@@ -348,6 +348,10 @@
     {
       "name": "Flippable",
       "type": "FlippableCapability::FlippableBehavior"
+    },
+    {
+      "name": "Health",
+      "type": "Health::Health"
     },
     {
       "name": "Opacity",

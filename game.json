@@ -2643,6 +2643,87 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/16x16 RPG Item Pack/Items/ff53298241c117bd6e33c54af2681ca7b9bd2986a20976afcd3a492ffb759cec_Blue Ribbon Scroll.png",
           "name": "Blue Ribbon Scroll.png"
         }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/answer-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/answer-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/answer-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/answer-2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/answer-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/answer-3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/New image4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/New image4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "assets/unlock-the-door-1-46012.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets/unlock-the-door-1-46012.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/lock-the-door-46014.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets/lock-the-door-46014.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/video/pexels-diva-plavalaguna-6194825 (240p).mp4",
+        "kind": "video",
+        "metadata": "",
+        "name": "assets/video/pexels-diva-plavalaguna-6194825 (240p).mp4",
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/11.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/11.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/10.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -6468,6 +6549,186 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "79f19af0e344e495be24fe2d6a076acec2c7f16e1ba0ffc7c3c150339f9057c8",
+      "name": "BlueRibbonScroll1",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Blue Ribbon Scroll.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 16,
+                        "y": 0
+                      },
+                      {
+                        "x": 16,
+                        "y": 16
+                      },
+                      {
+                        "x": 0,
+                        "y": 16
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "DeadBackground",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/dead_background.jpg",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 1500,
+                        "y": 0
+                      },
+                      {
+                        "x": 1500,
+                        "y": 841
+                      },
+                      {
+                        "x": 0,
+                        "y": 841
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Shot",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/25053-9-gunshot-hd.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 780,
+                        "y": 243
+                      },
+                      {
+                        "x": 1131,
+                        "y": 243
+                      },
+                      {
+                        "x": 1131,
+                        "y": 839
+                      },
+                      {
+                        "x": 780,
+                        "y": 839
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -6478,6 +6739,15 @@
       },
       {
         "objectName": "Player1"
+      },
+      {
+        "objectName": "BlueRibbonScroll1"
+      },
+      {
+        "objectName": "DeadBackground"
+      },
+      {
+        "objectName": "Shot"
       }
     ]
   },
@@ -6537,6 +6807,10 @@
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/ash-lower-gf2"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/ash-lower-gf"
     },
     {
@@ -6561,11 +6835,19 @@
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/ending-scene"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/get-out"
     }
   ],
   "externalEvents": [],
   "eventsFunctionsExtensions": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/draggablephysics"
+    },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/eventsFunctionsExtensions/spritetoggleswitch"

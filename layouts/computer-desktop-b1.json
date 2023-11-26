@@ -141,12 +141,12 @@
       "customSize": false,
       "height": 0,
       "layer": "",
-      "name": "Menu_1",
-      "persistentUuid": "c35584cf-d05f-4dbf-819f-9b34eb7e7e3c",
+      "name": "Menu_2",
+      "persistentUuid": "84697df0-0fac-40c2-a2ec-4cd8ce609bf2",
       "width": 0,
-      "x": 1069,
-      "y": 637,
-      "zOrder": 14,
+      "x": 1060,
+      "y": 629,
+      "zOrder": 15,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -723,7 +723,7 @@
           "italic": false,
           "smoothed": true,
           "underlined": false,
-          "string": "Button",
+          "string": "Exit",
           "font": "mononoki-Regular.ttf",
           "textAlignment": "center",
           "characterSize": 20,
@@ -1120,6 +1120,30 @@
           },
           "parameters": [
             "Video1"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+          },
+          "parameters": [
+            "Menu_2",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "PopScene"
+          },
+          "parameters": [
+            ""
           ]
         }
       ]

@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.4194339782759131,
+    "zoomFactor": 0.6897782140104616,
     "windowMask": false
   },
   "objectsGroups": [
@@ -119,7 +119,7 @@
       "angle": 0,
       "customSize": false,
       "height": 0,
-      "layer": "",
+      "layer": "Platform",
       "name": "IntroText",
       "persistentUuid": "2fa2c82c-ed74-4b54-9eb0-edbe6e8c22a9",
       "width": 0,
@@ -532,7 +532,7 @@
         "opacity": 255,
         "loop": true,
         "volume": 100,
-        "videoResource": "pexels-ivan-samkov-6955102 (720p).mp4"
+        "videoResource": "assets/video/pexels-ivan-samkov-6955102 (360p).mp4"
       }
     },
     {
@@ -646,7 +646,7 @@
           "CurrentCharacter": ""
         }
       ],
-      "string": "You saw a xyz and ",
+      "string": "Flickering...flickering",
       "font": "Roboto-Regular.ttf",
       "textAlignment": "left",
       "characterSize": 20,

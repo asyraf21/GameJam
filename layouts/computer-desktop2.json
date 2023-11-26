@@ -573,7 +573,7 @@
         "opacity": 255,
         "loop": true,
         "volume": 100,
-        "videoResource": "pexels-ivan-samkov-6955102 (720p).mp4"
+        "videoResource": "assets/video/pexels-ivan-samkov-6955102 (360p).mp4"
       }
     },
     {
@@ -1162,13 +1162,7 @@
       "updateIfNotVisible": false,
       "variables": [],
       "effects": [],
-      "behaviors": [
-        {
-          "name": "Draggable",
-          "type": "DraggableBehavior::Draggable",
-          "checkCollisionMask": true
-        }
-      ],
+      "behaviors": [],
       "animations": [
         {
           "name": "",

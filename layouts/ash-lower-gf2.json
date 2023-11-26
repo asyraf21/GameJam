@@ -9,7 +9,7 @@
   "title": "",
   "v": 144,
   "uiSettings": {
-    "grid": true,
+    "grid": false,
     "gridType": "rectangular",
     "gridWidth": 32,
     "gridHeight": 32,
@@ -33,6 +33,9 @@
         },
         {
           "name": "Table"
+        },
+        {
+          "name": "Door"
         },
         {
           "name": "Door"
@@ -2476,6 +2479,14 @@
           "impassable": true
         }
       ],
+      "behaviors": [
+        {
+          "name": "PathfindingObstacle",
+          "type": "PathfindingBehavior::PathfindingObstacleBehavior",
+          "cost": 6,
+          "impassable": true
+        }
+      ],
       "animations": [
         {
           "name": "",
@@ -2589,6 +2600,7 @@
     },
     {
       "adaptCollisionMaskAutomatically": false,
+      "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "6ccc9a7787f5d46363c032e0af73c9129eeae4e852d77e17a4794732682c6148",
       "name": "Door",
       "type": "Sprite",
@@ -2625,9 +2637,12 @@
                       {
                         "x": 1.5,
                         "y": 0.5
+                        "x": 1.5,
+                        "y": 0.5
                       },
                       {
                         "x": 77,
+                        "y": 0.5
                         "y": 0.5
                       },
                       {
@@ -2673,9 +2688,12 @@
                       {
                         "x": 1.5,
                         "y": 0.5
+                        "x": 1.5,
+                        "y": 0.5
                       },
                       {
                         "x": 77,
+                        "y": 0.5
                         "y": 0.5
                       },
                       {
@@ -2709,9 +2727,12 @@
                       {
                         "x": 1.5,
                         "y": 0.5
+                        "x": 1.5,
+                        "y": 0.5
                       },
                       {
                         "x": 77,
+                        "y": 0.5
                         "y": 0.5
                       },
                       {
@@ -2745,9 +2766,12 @@
                       {
                         "x": 1.5,
                         "y": 0.5
+                        "x": 1.5,
+                        "y": 0.5
                       },
                       {
                         "x": 77,
+                        "y": 0.5
                         "y": 0.5
                       },
                       {
@@ -2781,9 +2805,12 @@
                       {
                         "x": 1.5,
                         "y": 0.5
+                        "x": 1.5,
+                        "y": 0.5
                       },
                       {
                         "x": 77,
+                        "y": 0.5
                         "y": 0.5
                       },
                       {
@@ -2817,9 +2844,12 @@
                       {
                         "x": 1.5,
                         "y": 0.5
+                        "x": 1.5,
+                        "y": 0.5
                       },
                       {
                         "x": 77,
+                        "y": 0.5
                         "y": 0.5
                       },
                       {
@@ -2865,9 +2895,12 @@
                       {
                         "x": 1.5,
                         "y": 0.5
+                        "x": 1.5,
+                        "y": 0.5
                       },
                       {
                         "x": 77,
+                        "y": 0.5
                         "y": 0.5
                       },
                       {
@@ -2901,9 +2934,12 @@
                       {
                         "x": 1.5,
                         "y": 0.5
+                        "x": 1.5,
+                        "y": 0.5
                       },
                       {
                         "x": 77,
+                        "y": 0.5
                         "y": 0.5
                       },
                       {
@@ -2937,9 +2973,12 @@
                       {
                         "x": 1.5,
                         "y": 0.5
+                        "x": 1.5,
+                        "y": 0.5
                       },
                       {
                         "x": 77,
+                        "y": 0.5
                         "y": 0.5
                       },
                       {
@@ -2973,9 +3012,12 @@
                       {
                         "x": 1.5,
                         "y": 0.5
+                        "x": 1.5,
+                        "y": 0.5
                       },
                       {
                         "x": 77,
+                        "y": 0.5
                         "y": 0.5
                       },
                       {
@@ -3009,9 +3051,12 @@
                       {
                         "x": 1.5,
                         "y": 0.5
+                        "x": 1.5,
+                        "y": 0.5
                       },
                       {
                         "x": 77,
+                        "y": 0.5
                         "y": 0.5
                       },
                       {
@@ -3095,22 +3140,30 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "_42_Monitor2",
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "_42_Monitor2",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
       "effects": [],
       "behaviors": [],
+      "behaviors": [],
       "animations": [
         {
+          "name": "",
           "name": "",
           "useMultipleDirections": false,
           "directions": [
             {
               "looping": false,
               "timeBetweenFrames": 0.08,
+              "looping": false,
+              "timeBetweenFrames": 0.08,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
+                  "image": "assets/Computer monitor3.png",
                   "image": "assets/Computer monitor3.png",
                   "points": [],
                   "originPoint": {
@@ -3228,9 +3281,12 @@
             {
               "looping": false,
               "timeBetweenFrames": 0.08,
+              "looping": false,
+              "timeBetweenFrames": 0.08,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
+                  "image": "assets/Computer monitor3.png",
                   "image": "assets/Computer monitor3.png",
                   "points": [],
                   "originPoint": {
@@ -3348,9 +3404,11 @@
             {
               "looping": false,
               "timeBetweenFrames": 0.08,
+              "timeBetweenFrames": 0.08,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
+                  "image": "assets/Computer monitor3.png",
                   "image": "assets/Computer monitor3.png",
                   "points": [],
                   "originPoint": {
@@ -3369,16 +3427,24 @@
                       {
                         "x": 0,
                         "y": 1
+                        "x": 0,
+                        "y": 1
                       },
                       {
+                        "x": 163,
+                        "y": 1
                         "x": 163,
                         "y": 1
                       },
                       {
                         "x": 163,
                         "y": 130
+                        "x": 163,
+                        "y": 130
                       },
                       {
+                        "x": 0,
+                        "y": 130
                         "x": 0,
                         "y": 130
                       }
@@ -3408,9 +3474,12 @@
             {
               "looping": false,
               "timeBetweenFrames": 0.08,
+              "looping": false,
+              "timeBetweenFrames": 0.08,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
+                  "image": "assets/Computer monitor3.png",
                   "image": "assets/Computer monitor3.png",
                   "points": [],
                   "originPoint": {
@@ -3429,16 +3498,24 @@
                       {
                         "x": 0,
                         "y": 1
+                        "x": 0,
+                        "y": 1
                       },
                       {
+                        "x": 163,
+                        "y": 1
                         "x": 163,
                         "y": 1
                       },
                       {
                         "x": 163,
                         "y": 130
+                        "x": 163,
+                        "y": 130
                       },
                       {
+                        "x": 0,
+                        "y": 130
                         "x": 0,
                         "y": 130
                       }
@@ -4278,6 +4355,7 @@
                     ]
                   ]
                 },
+                },
                 {
                   "hasCustomCollisionMask": true,
                   "image": "NewSprite59",
@@ -4434,6 +4512,7 @@
                       }
                     ]
                   ]
+                },
                 },
                 {
                   "hasCustomCollisionMask": true,
@@ -6273,11 +6352,8 @@
             "Player1.X()"
           ]
         }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
+      ],
+      "actions": [
         {
           "type": {
             "value": "SourisSurObjet"
@@ -6297,9 +6373,7 @@
             "",
             "Left"
           ]
-        }
-      ],
-      "actions": [
+        },
         {
           "type": {
             "value": "PushScene"
@@ -6655,6 +6729,14 @@
     {
       "name": "Opacity",
       "type": "OpacityCapability::OpacityBehavior"
+    },
+    {
+      "name": "Pathfinding",
+      "type": "PathfindingBehavior::PathfindingBehavior"
+    },
+    {
+      "name": "PathfindingObstacle",
+      "type": "PathfindingBehavior::PathfindingObstacleBehavior"
     },
     {
       "name": "Pathfinding",

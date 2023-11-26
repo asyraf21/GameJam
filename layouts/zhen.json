@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.5117784035210173,
+    "zoomFactor": 0.584378441074094,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -30,27 +30,12 @@
       "depth": 1,
       "height": 325,
       "layer": "",
-      "name": "NewSprite",
+      "name": "Jen",
       "persistentUuid": "f5d96be8-94a8-4457-be7c-50268305e7b5",
-      "width": 300,
-      "x": 504,
-      "y": 35,
+      "width": 217,
+      "x": 535,
+      "y": 34,
       "zOrder": 3,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "NewSprite2",
-      "persistentUuid": "5b17bcf5-4f14-40ed-93fc-be3d71576c58",
-      "width": 0,
-      "x": -81,
-      "y": -46,
-      "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -78,9 +63,39 @@
       "name": "NewText2",
       "persistentUuid": "0ed4748c-4aae-4220-8112-6cdfc5d5410a",
       "width": 0,
+      "x": -2,
+      "y": 410,
+      "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "DeadBackground",
+      "persistentUuid": "d1a07dfa-1d9e-4acc-9767-78bf1f3d07f4",
+      "width": 0,
       "x": 1069,
       "y": 683,
       "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "DeadBackground",
+      "persistentUuid": "d1a07dfa-1d9e-4acc-9767-78bf1f3d07f4",
+      "width": 0,
+      "x": -97,
+      "y": -54,
+      "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -90,7 +105,7 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "NewSprite",
+      "name": "Jen",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -223,9 +238,9 @@
       "textAlignment": "center",
       "characterSize": 40,
       "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
+        "b": 255,
+        "g": 255,
+        "r": 255
       }
     },
     {
@@ -244,9 +259,9 @@
       "textAlignment": "left",
       "characterSize": 20,
       "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
+        "b": 255,
+        "g": 255,
+        "r": 255
       }
     }
   ],
@@ -254,7 +269,7 @@
     "folderName": "__ROOT",
     "children": [
       {
-        "objectName": "NewSprite"
+        "objectName": "Jen"
       },
       {
         "objectName": "NewSprite2"

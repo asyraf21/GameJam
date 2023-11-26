@@ -1,13 +1,13 @@
 {
-  "b": 226,
+  "b": 119,
   "disableInputWhenNotFocused": true,
   "mangledName": "Ash_45Lower_32GF",
   "name": "Ash-Lower GF",
-  "r": 74,
+  "r": 92,
   "standardSortMethod": true,
   "stopSoundsOnStartup": true,
   "title": "",
-  "v": 144,
+  "v": 104,
   "uiSettings": {
     "grid": true,
     "gridType": "rectangular",
@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 1,
     "snap": true,
-    "zoomFactor": 0.8141881203710106,
+    "zoomFactor": 0.6244537826600152,
     "windowMask": false
   },
   "objectsGroups": [
@@ -2317,6 +2317,53 @@
     },
     {
       "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 288,
+      "layer": "",
+      "name": "Mist1",
+      "persistentUuid": "c87f25c7-9e13-441e-807c-b19dedd5ef64",
+      "width": 480,
+      "x": 352,
+      "y": 160,
+      "zOrder": 30,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 6,
+      "customSize": true,
+      "depth": 1,
+      "height": 288,
+      "layer": "",
+      "name": "Mist1",
+      "persistentUuid": "3210b12e-80d5-48be-a38a-6b75630cc94d",
+      "width": 480,
+      "x": 1010,
+      "y": 40,
+      "zOrder": 30,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Lighting",
+      "name": "NewLight",
+      "persistentUuid": "dbbeb1ab-8214-41fd-9c10-697abfd9c768",
+      "width": 0,
+      "x": 368,
+      "y": 304,
+      "zOrder": 31,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
       "customSize": false,
       "height": 0,
       "layer": "Health",
@@ -2357,6 +2404,10 @@
       "variables": [],
       "effects": [],
       "behaviors": [
+        {
+          "name": "LightObstacleBehavior",
+          "type": "Lighting::LightObstacleBehavior"
+        },
         {
           "name": "PathfindingObstacle",
           "type": "PathfindingBehavior::PathfindingObstacleBehavior",
@@ -4060,14 +4111,37 @@
       ]
     },
     {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "79f19af0e344e495be24fe2d6a076acec2c7f16e1ba0ffc7c3c150339f9057c8",
-      "name": "BlueRibbonScroll",
+      "adaptCollisionMaskAutomatically": false,
+      "assetStoreId": "",
+      "name": "Mist1",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "Pathfinding",
+          "type": "PathfindingBehavior::PathfindingBehavior",
+          "acceleration": 500,
+          "allowDiagonals": true,
+          "angleOffset": 0,
+          "angularMaxSpeed": 180,
+          "cellHeight": 20,
+          "cellWidth": 20,
+          "extraBorder": 0,
+          "gridOffsetX": 0,
+          "gridOffsetY": 0,
+          "maxSpeed": 150,
+          "rotateObject": false,
+          "smoothingMaxCellGap": 2
+        },
+        {
+          "name": "PathfindingObstacle",
+          "type": "PathfindingBehavior::PathfindingObstacleBehavior",
+          "cost": 3,
+          "impassable": true
+        }
+      ],
       "animations": [
         {
           "name": "",
@@ -4075,11 +4149,11 @@
           "directions": [
             {
               "looping": true,
-              "timeBetweenFrames": 0.025,
+              "timeBetweenFrames": 1,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Blue Ribbon Scroll.png",
+                  "image": "assets/11.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -4095,20 +4169,56 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
-                        "y": 0
+                        "x": 302,
+                        "y": 149
                       },
                       {
-                        "x": 16,
-                        "y": 0
+                        "x": 318.5,
+                        "y": 147
                       },
                       {
-                        "x": 16,
-                        "y": 16
+                        "x": 318,
+                        "y": 154.5
                       },
                       {
-                        "x": 0,
-                        "y": 16
+                        "x": 303.5,
+                        "y": 157.5
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/10.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 302,
+                        "y": 149
+                      },
+                      {
+                        "x": 318.5,
+                        "y": 147
+                      },
+                      {
+                        "x": 318,
+                        "y": 154.5
+                      },
+                      {
+                        "x": 303.5,
+                        "y": 157.5
                       }
                     ]
                   ]
@@ -4118,6 +4228,20 @@
           ]
         }
       ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "NewLight",
+      "type": "Lighting::LightObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "radius": 400,
+        "color": "255;255;255",
+        "debugMode": false,
+        "texture": ""
+      }
     },
     {
       "assetStoreId": "db57d0bcdc074868304ca46431ac85fcef3f613be5fba73ae0adc26ee2c8629b",
@@ -4278,7 +4402,10 @@
         "objectName": "Door2"
       },
       {
-        "objectName": "BlueRibbonScroll"
+        "objectName": "Mist1"
+      },
+      {
+        "objectName": "NewLight"
       },
       {
         "objectName": "PixelHeartBar"
@@ -4348,10 +4475,29 @@
       "conditions": [
         {
           "type": {
-            "value": "SceneJustResumed"
+            "value": "BuiltinCommonInstructions::And"
           },
-          "parameters": [
-            ""
+          "parameters": [],
+          "subInstructions": [
+            {
+              "type": {
+                "value": "SceneJustResumed"
+              },
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Distance"
+              },
+              "parameters": [
+                "Player1",
+                "_42_Monitor_Quiz",
+                "100",
+                ""
+              ]
+            }
           ]
         }
       ],
@@ -4362,7 +4508,7 @@
           },
           "parameters": [
             "",
-            "BlueRibbonScroll",
+            "BlueRibbonScroll1",
             "736",
             "96",
             ""
@@ -4438,6 +4584,30 @@
             "Scale",
             "=",
             "2"
+          ]
+        },
+        {
+          "type": {
+            "value": "PathfindingBehavior::SetDestination"
+          },
+          "parameters": [
+            "Mist1",
+            "Pathfinding",
+            "",
+            "Player1.CenterX()",
+            "Player1.CenterY()"
+          ]
+        },
+        {
+          "type": {
+            "value": "PathfindingBehavior::SetDestination"
+          },
+          "parameters": [
+            "NewLight",
+            "Pathfinding",
+            "",
+            "Player1.CenterX()",
+            "Player1.CenterY()"
           ]
         }
       ]
@@ -4937,7 +5107,7 @@
           },
           "parameters": [
             "",
-            "\"Get out\""
+            "\"Ending Scene\""
           ]
         }
       ]
@@ -5321,6 +5491,72 @@
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::And"
+          },
+          "parameters": [],
+          "subInstructions": [
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "BlueRibbonScroll1",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "MouseButtonReleased"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ]
+            }
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "PushScene"
+          },
+          "parameters": [
+            "",
+            "\"Answer\""
+          ]
+        },
+        {
+          "type": {
+            "value": "ModVarObjet"
+          },
+          "parameters": [
+            "Player1",
+            "lastX",
+            "=",
+            "Player1.X()"
+          ]
+        },
+        {
+          "type": {
+            "value": "ModVarObjet"
+          },
+          "parameters": [
+            "Player1",
+            "lastY",
+            "=",
+            "Player1.Y()"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
       "conditions": [],
       "actions": []
     },
@@ -5345,7 +5581,7 @@
           "parameters": [
             "Player1",
             "Zombie",
-            "300",
+            "350",
             ""
           ]
         }
@@ -5408,6 +5644,36 @@
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [],
       "actions": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "Mist"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "PathfindingBehavior::SetDestination"
+          },
+          "parameters": [
+            "Mist1",
+            "Pathfinding",
+            "",
+            "Player1.CenterX()",
+            "Player1.CenterY()"
+          ]
+        }
+      ]
     }
   ],
   "layers": [
@@ -5464,6 +5730,54 @@
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
       "isLocked": false,
+      "name": "Mist",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [],
+      "effects": [
+        {
+          "effectType": "Scene3D::HemisphereLight",
+          "name": "3D Light",
+          "doubleParameters": {
+            "elevation": 45,
+            "intensity": 1,
+            "rotation": 0
+          },
+          "stringParameters": {
+            "groundColor": "64;64;64",
+            "skyColor": "255;255;255",
+            "top": "Y-"
+          },
+          "booleanParameters": {}
+        }
+      ]
+    },
+    {
+      "ambientLightColorB": 128,
+      "ambientLightColorG": 128,
+      "ambientLightColorR": 128,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 3,
+      "followBaseLayerCamera": true,
+      "isLightingLayer": true,
+      "isLocked": false,
+      "name": "Lighting",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [],
+      "effects": []
+    },
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 3,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
       "name": "Health",
       "renderingType": "",
       "visibility": true,
@@ -5499,6 +5813,10 @@
     {
       "name": "Flippable",
       "type": "FlippableCapability::FlippableBehavior"
+    },
+    {
+      "name": "LightObstacleBehavior",
+      "type": "Lighting::LightObstacleBehavior"
     },
     {
       "name": "Health",

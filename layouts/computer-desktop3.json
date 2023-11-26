@@ -65,53 +65,6 @@
   "instances": [
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "Player",
-      "name": "Player",
-      "persistentUuid": "f5a4e6fa-5ad5-459c-8e51-8e79fadd6816",
-      "width": 0,
-      "x": 981,
-      "y": 291,
-      "zOrder": 1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 127,
-      "layer": "Platform",
-      "name": "NewTiledSprite",
-      "persistentUuid": "96988c44-240f-414a-b257-c9d86f15b40b",
-      "width": 448,
-      "x": 825,
-      "y": 292,
-      "zOrder": 0,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 127,
-      "layer": "Platform",
-      "name": "NewTiledSprite",
-      "persistentUuid": "d2474e9a-f8b2-403b-9216-076cd050803e",
-      "width": 441,
-      "x": 348,
-      "y": 486,
-      "zOrder": 0,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
       "customSize": true,
       "depth": 1,
       "height": 420,
@@ -305,286 +258,6 @@
   ],
   "objects": [
     {
-      "assetStoreId": "3b2a519af4ed26bc452be64dc0d27848a979b8da86d799d3984f0520cc7de25c",
-      "name": "Building3Small",
-      "type": "Scene3D::Model3DObject",
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "content": {
-        "centerLocation": "ModelOrigin",
-        "depth": 255,
-        "height": 255,
-        "keepAspectRatio": true,
-        "materialType": "StandardWithoutMetalness",
-        "modelResourceName": "Building 3 Small.glb",
-        "originLocation": "ModelOrigin",
-        "rotationX": 90,
-        "rotationY": 0,
-        "rotationZ": 0,
-        "width": 255,
-        "animations": []
-      }
-    },
-    {
-      "assetStoreId": "",
-      "height": 32,
-      "name": "NewTiledSprite",
-      "texture": "Isometric Voxel Mossy Stone.png",
-      "type": "TiledSpriteObject::TiledSprite",
-      "width": 32,
-      "variables": [],
-      "effects": [],
-      "behaviors": [
-        {
-          "name": "Platform",
-          "type": "PlatformBehavior::PlatformBehavior",
-          "canBeGrabbed": true,
-          "platformType": "NormalPlatform",
-          "yGrabOffset": 0
-        }
-      ]
-    },
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "",
-      "name": "Player",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [
-        {
-          "name": "PlatformerObject",
-          "type": "PlatformBehavior::PlatformerObjectBehavior",
-          "acceleration": 1500,
-          "canGoDownFromJumpthru": true,
-          "canGrabPlatforms": false,
-          "canGrabWithoutMoving": true,
-          "deceleration": 1500,
-          "gravity": 1000,
-          "ignoreDefaultControls": false,
-          "jumpSpeed": 600,
-          "jumpSustainTime": 0.2,
-          "ladderClimbingSpeed": 150,
-          "maxFallingSpeed": 700,
-          "maxSpeed": 250,
-          "slopeMaxAngle": 60,
-          "useLegacyTrajectory": false,
-          "xGrabTolerance": 10,
-          "yGrabOffset": 0
-        }
-      ],
-      "animations": [
-        {
-          "name": "Idle",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": true,
-              "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Idle",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 9,
-                        "y": 10
-                      },
-                      {
-                        "x": 52,
-                        "y": 10
-                      },
-                      {
-                        "x": 52,
-                        "y": 52
-                      },
-                      {
-                        "x": 9,
-                        "y": 52
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Idle2",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 9,
-                        "y": 10
-                      },
-                      {
-                        "x": 52,
-                        "y": 10
-                      },
-                      {
-                        "x": 52,
-                        "y": 52
-                      },
-                      {
-                        "x": 9,
-                        "y": 52
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Run",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": true,
-              "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "NewSprite",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 9,
-                        "y": 10
-                      },
-                      {
-                        "x": 52,
-                        "y": 10
-                      },
-                      {
-                        "x": 52,
-                        "y": 52
-                      },
-                      {
-                        "x": 9,
-                        "y": 52
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "NewSprite2",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 9,
-                        "y": 10
-                      },
-                      {
-                        "x": 52,
-                        "y": 10
-                      },
-                      {
-                        "x": 52,
-                        "y": 52
-                      },
-                      {
-                        "x": 9,
-                        "y": 52
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "NewSprite3",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 9,
-                        "y": 10
-                      },
-                      {
-                        "x": 52,
-                        "y": 10
-                      },
-                      {
-                        "x": 52,
-                        "y": 52
-                      },
-                      {
-                        "x": 9,
-                        "y": 52
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
       "assetStoreId": "",
       "name": "Video1",
       "type": "Video::VideoObject",
@@ -668,25 +341,6 @@
               ]
             }
           ]
-        }
-      ]
-    },
-    {
-      "assetStoreId": "",
-      "height": 32,
-      "name": "Button",
-      "texture": "Isometric Voxel Mossy Stone.png",
-      "type": "TiledSpriteObject::TiledSprite",
-      "width": 32,
-      "variables": [],
-      "effects": [],
-      "behaviors": [
-        {
-          "name": "Platform",
-          "type": "PlatformBehavior::PlatformBehavior",
-          "canBeGrabbed": true,
-          "platformType": "NormalPlatform",
-          "yGrabOffset": 0
         }
       ]
     },
@@ -1711,18 +1365,6 @@
     "folderName": "__ROOT",
     "children": [
       {
-        "objectName": "Building3Small"
-      },
-      {
-        "objectName": "NewTiledSprite"
-      },
-      {
-        "objectName": "Button"
-      },
-      {
-        "objectName": "Player"
-      },
-      {
         "folderName": "PC",
         "children": [
           {
@@ -2473,12 +2115,20 @@
       "type": "OpacityCapability::OpacityBehavior"
     },
     {
+      "name": "Pathfinding",
+      "type": "PathfindingBehavior::PathfindingBehavior"
+    },
+    {
       "name": "Platform",
       "type": "PlatformBehavior::PlatformBehavior"
     },
     {
       "name": "PlatformerObject",
       "type": "PlatformBehavior::PlatformerObjectBehavior"
+    },
+    {
+      "name": "RemapForTopdown",
+      "type": "BehaviorRemapper::RemapForTopdown"
     },
     {
       "name": "Resizable",
@@ -2489,12 +2139,24 @@
       "type": "ScalableCapability::ScalableBehavior"
     },
     {
+      "name": "SmoothCamera",
+      "type": "SmoothCamera::SmoothCamera"
+    },
+    {
+      "name": "SpeedPathMovement",
+      "type": "CurvedMovement::SpeedPathMovement"
+    },
+    {
       "name": "Text",
       "type": "TextContainerCapability::TextContainerBehavior"
     },
     {
       "name": "Text_AutoTyping",
       "type": "AutoTyping::Text_AutoTyping"
+    },
+    {
+      "name": "TopDownMovement",
+      "type": "TopDownMovementBehavior::TopDownMovementBehavior"
     }
   ]
 }

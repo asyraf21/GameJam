@@ -42,53 +42,6 @@
   "instances": [
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "Player",
-      "name": "Player",
-      "persistentUuid": "f5a4e6fa-5ad5-459c-8e51-8e79fadd6816",
-      "width": 0,
-      "x": 981,
-      "y": 291,
-      "zOrder": 1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 127,
-      "layer": "Platform",
-      "name": "NewTiledSprite",
-      "persistentUuid": "96988c44-240f-414a-b257-c9d86f15b40b",
-      "width": 448,
-      "x": 825,
-      "y": 292,
-      "zOrder": 0,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 127,
-      "layer": "Platform",
-      "name": "NewTiledSprite",
-      "persistentUuid": "d2474e9a-f8b2-403b-9216-076cd050803e",
-      "width": 441,
-      "x": 348,
-      "y": 486,
-      "zOrder": 0,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
       "customSize": true,
       "depth": 1,
       "height": 420,
@@ -170,22 +123,6 @@
     {
       "angle": 0,
       "customSize": true,
-      "depth": 32,
-      "height": 21,
-      "layer": "",
-      "name": "volume",
-      "persistentUuid": "03ec1ade-a5d8-470a-8eca-5f5dac59e33f",
-      "width": 172,
-      "x": 1084,
-      "y": 684,
-      "zOrder": 12,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
       "depth": 1,
       "height": 426,
       "layer": "",
@@ -198,289 +135,24 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Menu_2",
+      "persistentUuid": "8871e694-233f-4b74-95f8-141c9c003459",
+      "width": 0,
+      "x": 1055,
+      "y": 627,
+      "zOrder": 14,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
-    {
-      "assetStoreId": "3b2a519af4ed26bc452be64dc0d27848a979b8da86d799d3984f0520cc7de25c",
-      "name": "Building3Small",
-      "type": "Scene3D::Model3DObject",
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "content": {
-        "centerLocation": "ModelOrigin",
-        "depth": 255,
-        "height": 255,
-        "keepAspectRatio": true,
-        "materialType": "StandardWithoutMetalness",
-        "modelResourceName": "Building 3 Small.glb",
-        "originLocation": "ModelOrigin",
-        "rotationX": 90,
-        "rotationY": 0,
-        "rotationZ": 0,
-        "width": 255,
-        "animations": []
-      }
-    },
-    {
-      "assetStoreId": "",
-      "height": 32,
-      "name": "NewTiledSprite",
-      "texture": "Isometric Voxel Mossy Stone.png",
-      "type": "TiledSpriteObject::TiledSprite",
-      "width": 32,
-      "variables": [],
-      "effects": [],
-      "behaviors": [
-        {
-          "name": "Platform",
-          "type": "PlatformBehavior::PlatformBehavior",
-          "canBeGrabbed": true,
-          "platformType": "NormalPlatform",
-          "yGrabOffset": 0
-        }
-      ]
-    },
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "",
-      "name": "Player",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [
-        {
-          "name": "PlatformerObject",
-          "type": "PlatformBehavior::PlatformerObjectBehavior",
-          "acceleration": 1500,
-          "canGoDownFromJumpthru": true,
-          "canGrabPlatforms": false,
-          "canGrabWithoutMoving": true,
-          "deceleration": 1500,
-          "gravity": 1000,
-          "ignoreDefaultControls": false,
-          "jumpSpeed": 600,
-          "jumpSustainTime": 0.2,
-          "ladderClimbingSpeed": 150,
-          "maxFallingSpeed": 700,
-          "maxSpeed": 250,
-          "slopeMaxAngle": 60,
-          "useLegacyTrajectory": false,
-          "xGrabTolerance": 10,
-          "yGrabOffset": 0
-        }
-      ],
-      "animations": [
-        {
-          "name": "Idle",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": true,
-              "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Idle",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 9,
-                        "y": 10
-                      },
-                      {
-                        "x": 52,
-                        "y": 10
-                      },
-                      {
-                        "x": 52,
-                        "y": 52
-                      },
-                      {
-                        "x": 9,
-                        "y": 52
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Idle2",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 9,
-                        "y": 10
-                      },
-                      {
-                        "x": 52,
-                        "y": 10
-                      },
-                      {
-                        "x": 52,
-                        "y": 52
-                      },
-                      {
-                        "x": 9,
-                        "y": 52
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Run",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": true,
-              "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "NewSprite",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 9,
-                        "y": 10
-                      },
-                      {
-                        "x": 52,
-                        "y": 10
-                      },
-                      {
-                        "x": 52,
-                        "y": 52
-                      },
-                      {
-                        "x": 9,
-                        "y": 52
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "NewSprite2",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 9,
-                        "y": 10
-                      },
-                      {
-                        "x": 52,
-                        "y": 10
-                      },
-                      {
-                        "x": 52,
-                        "y": 52
-                      },
-                      {
-                        "x": 9,
-                        "y": 52
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "NewSprite3",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 9,
-                        "y": 10
-                      },
-                      {
-                        "x": 52,
-                        "y": 10
-                      },
-                      {
-                        "x": 52,
-                        "y": 52
-                      },
-                      {
-                        "x": 9,
-                        "y": 52
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
     {
       "assetStoreId": "",
       "name": "Video1",
@@ -492,7 +164,7 @@
         "opacity": 255,
         "loop": true,
         "volume": 100,
-        "videoResource": "pexels-ivan-samkov-6955102 (720p).mp4"
+        "videoResource": "assets/video/nekojirusou.mp4"
       }
     },
     {
@@ -565,25 +237,6 @@
               ]
             }
           ]
-        }
-      ]
-    },
-    {
-      "assetStoreId": "",
-      "height": 32,
-      "name": "Button",
-      "texture": "Isometric Voxel Mossy Stone.png",
-      "type": "TiledSpriteObject::TiledSprite",
-      "width": 32,
-      "variables": [],
-      "effects": [],
-      "behaviors": [
-        {
-          "name": "Platform",
-          "type": "PlatformBehavior::PlatformBehavior",
-          "canBeGrabbed": true,
-          "platformType": "NormalPlatform",
-          "yGrabOffset": 0
         }
       ]
     },
@@ -1051,8 +704,8 @@
           "italic": false,
           "smoothed": true,
           "underlined": false,
-          "string": "Button",
-          "font": "mononoki-Regular.ttf",
+          "string": "Exit",
+          "font": "RobotoMono-VariableFont_wght.ttf",
           "textAlignment": "center",
           "characterSize": 20,
           "color": {
@@ -1143,18 +796,6 @@
   "objectsFolderStructure": {
     "folderName": "__ROOT",
     "children": [
-      {
-        "objectName": "Building3Small"
-      },
-      {
-        "objectName": "NewTiledSprite"
-      },
-      {
-        "objectName": "Button"
-      },
-      {
-        "objectName": "Player"
-      },
       {
         "folderName": "PC",
         "children": [
@@ -1458,72 +1099,53 @@
           "parameters": [
             "Video1"
           ]
+        },
+        {
+          "type": {
+            "value": "ResetObjectTimer"
+          },
+          "parameters": [
+            "Menu_2",
+            "\"ExitButton\""
+          ]
         }
       ]
     },
     {
-      "type": "BuiltinCommonInstructions::Comment",
-      "color": {
-        "b": 109,
-        "g": 230,
-        "r": 255,
-        "textB": 0,
-        "textG": 0,
-        "textR": 0
-      },
-      "comment": "Reveal Main Page"
-    },
-    {
       "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": []
-    },
-    {
-      "type": "BuiltinCommonInstructions::Comment",
-      "color": {
-        "b": 109,
-        "g": 230,
-        "r": 255,
-        "textB": 0,
-        "textG": 0,
-        "textR": 0
-      },
-      "comment": "Camera behaviour"
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
+      "conditions": [
+        {
+          "type": {
+            "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+          },
+          "parameters": [
+            "Menu_2",
+            ""
+          ]
+        }
+      ],
       "actions": [
         {
           "type": {
-            "value": "ZoomCamera"
+            "value": "PlaySound"
           },
           "parameters": [
             "",
-            "Variable(CameraZoom)",
-            "\"PC\"",
+            "de3a55a1dd3cc89f79e916b4ecc0c6344a32fdb6f6731d25b2f95836844e83b5_1up 10.aac",
+            "",
+            "200",
             ""
           ]
         },
         {
           "type": {
-            "value": "Tween::TweenCameraZoom2"
+            "value": "PopScene"
           },
           "parameters": [
-            "",
-            "\"PC\"",
-            "2",
-            "\"PC\"",
-            "\"linear\"",
-            "3"
+            ""
           ]
         }
       ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": []
     },
     {
       "type": "BuiltinCommonInstructions::Comment",
@@ -1742,20 +1364,12 @@
       "type": "FlippableCapability::FlippableBehavior"
     },
     {
-      "name": "Object3D",
-      "type": "Scene3D::Base3DBehavior"
-    },
-    {
       "name": "Opacity",
       "type": "OpacityCapability::OpacityBehavior"
     },
     {
-      "name": "Platform",
-      "type": "PlatformBehavior::PlatformBehavior"
-    },
-    {
-      "name": "PlatformerObject",
-      "type": "PlatformBehavior::PlatformerObjectBehavior"
+      "name": "Pathfinding",
+      "type": "PathfindingBehavior::PathfindingBehavior"
     },
     {
       "name": "RemapForTopdown",
@@ -1772,6 +1386,10 @@
     {
       "name": "SmoothCamera",
       "type": "SmoothCamera::SmoothCamera"
+    },
+    {
+      "name": "SpeedPathMovement",
+      "type": "CurvedMovement::SpeedPathMovement"
     },
     {
       "name": "Text",

@@ -1750,6 +1750,10 @@
       "type": "OpacityCapability::OpacityBehavior"
     },
     {
+      "name": "Pathfinding",
+      "type": "PathfindingBehavior::PathfindingBehavior"
+    },
+    {
       "name": "Platform",
       "type": "PlatformBehavior::PlatformBehavior"
     },
@@ -1772,6 +1776,10 @@
     {
       "name": "SmoothCamera",
       "type": "SmoothCamera::SmoothCamera"
+    },
+    {
+      "name": "SpeedPathMovement",
+      "type": "CurvedMovement::SpeedPathMovement"
     },
     {
       "name": "Text",

@@ -62,7 +62,7 @@
       "depth": 1,
       "height": 914,
       "layer": "",
-      "name": "NewSprite",
+      "name": "EndingBackground",
       "persistentUuid": "a4d240d9-b412-4e03-b1c8-72ff52bafb08",
       "width": 1422,
       "x": -74,
@@ -137,7 +137,7 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "NewSprite",
+      "name": "EndingBackground",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -154,7 +154,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "19333450.jpg",
+                  "image": "assets/19333449.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -174,16 +174,16 @@
                         "y": 0
                       },
                       {
-                        "x": 5774,
+                        "x": 534,
                         "y": 0
                       },
                       {
-                        "x": 5774,
-                        "y": 4330
+                        "x": 534,
+                        "y": 400
                       },
                       {
                         "x": 0,
-                        "y": 4330
+                        "y": 400
                       }
                     ]
                   ]
@@ -451,7 +451,7 @@
     "folderName": "__ROOT",
     "children": [
       {
-        "objectName": "NewSprite"
+        "objectName": "EndingBackground"
       },
       {
         "objectName": "_1"

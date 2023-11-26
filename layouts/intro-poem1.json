@@ -308,13 +308,12 @@
       "actions": [
         {
           "type": {
-            "value": "AutoTyping::Text_AutoTyping::JumpToPosition"
+            "value": "AutoTyping::Text_AutoTyping::SkipToEnd"
           },
           "parameters": [
             "Poem1",
             "Text_AutoTyping",
-            "5",
-            ""
+            "5"
           ]
         }
       ]
@@ -399,15 +398,41 @@
       "actions": [
         {
           "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "cf3d278e28f6f631da5883429db0f100b27b1e2ef94ad12cfedafbb1c5b61136_1up 9.aac",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "UnloadMusic"
+          },
+          "parameters": [
+            "",
+            "34e5b6ec775500a97710fde05a226495109f4e7bf55e1845023f372a1428102d_Big Eyes.aac"
+          ]
+        },
+        {
+          "type": {
             "value": "Scene"
           },
           "parameters": [
             "",
-            "\"Ash-Lower GF2\"",
+            "\"Ash-Lower GF\"",
             ""
           ]
         }
       ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": []
     }
   ],
   "layers": [
@@ -521,6 +546,10 @@
   ],
   "behaviorsSharedData": [
     {
+      "name": "Animation",
+      "type": "AnimatableCapability::AnimatableBehavior"
+    },
+    {
       "name": "Effect",
       "type": "EffectCapability::EffectBehavior"
     },
@@ -533,6 +562,14 @@
       "type": "OpacityCapability::OpacityBehavior"
     },
     {
+      "name": "Pathfinding",
+      "type": "PathfindingBehavior::PathfindingBehavior"
+    },
+    {
+      "name": "RemapForTopdown",
+      "type": "BehaviorRemapper::RemapForTopdown"
+    },
+    {
       "name": "Resizable",
       "type": "ResizableCapability::ResizableBehavior"
     },
@@ -541,12 +578,24 @@
       "type": "ScalableCapability::ScalableBehavior"
     },
     {
+      "name": "SmoothCamera",
+      "type": "SmoothCamera::SmoothCamera"
+    },
+    {
+      "name": "SpeedPathMovement",
+      "type": "CurvedMovement::SpeedPathMovement"
+    },
+    {
       "name": "Text",
       "type": "TextContainerCapability::TextContainerBehavior"
     },
     {
       "name": "Text_AutoTyping",
       "type": "AutoTyping::Text_AutoTyping"
+    },
+    {
+      "name": "TopDownMovement",
+      "type": "TopDownMovementBehavior::TopDownMovementBehavior"
     }
   ]
 }

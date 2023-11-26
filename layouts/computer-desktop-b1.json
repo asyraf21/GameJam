@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.5117784035210261,
+    "zoomFactor": 0.6455105703311588,
     "windowMask": false
   },
   "objectsGroups": [
@@ -1134,23 +1134,6 @@
         "textG": 0,
         "textR": 0
       },
-      "comment": "Reveal Main Page"
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": []
-    },
-    {
-      "type": "BuiltinCommonInstructions::Comment",
-      "color": {
-        "b": 109,
-        "g": 230,
-        "r": 255,
-        "textB": 0,
-        "textG": 0,
-        "textR": 0
-      },
       "comment": "Camera behaviour"
     },
     {
@@ -1341,20 +1324,12 @@
       "type": "FlippableCapability::FlippableBehavior"
     },
     {
-      "name": "Object3D",
-      "type": "Scene3D::Base3DBehavior"
-    },
-    {
       "name": "Opacity",
       "type": "OpacityCapability::OpacityBehavior"
     },
     {
       "name": "Platform",
       "type": "PlatformBehavior::PlatformBehavior"
-    },
-    {
-      "name": "PlatformerObject",
-      "type": "PlatformBehavior::PlatformerObjectBehavior"
     },
     {
       "name": "Resizable",

@@ -2303,6 +2303,38 @@
         "metadata": "",
         "name": "assets/video/masaaki-yuasa-1.mp4",
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/papertexture-2.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/papertexture-2.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/25053-9-gunshot-hd.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/25053-9-gunshot-hd.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Gun 2.aac",
+        "kind": "audio",
+        "metadata": "",
+        "name": "265701b04cb41976c67820a196c0b3cbc2f98351032b9e710b853da1a5b7ff02_Gun 2.aac",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Western FPS 2D/Sound/265701b04cb41976c67820a196c0b3cbc2f98351032b9e710b853da1a5b7ff02_Gun 2.aac",
+          "name": "gdevelop-asset-store"
+        }
       }
     ],
     "resourceFolders": []
@@ -2422,7 +2454,7 @@
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/ash-lower-gf2"
+      "referenceTo": "/layouts/quiz2"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,

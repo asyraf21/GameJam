@@ -2159,6 +2159,185 @@
       },
       {
         "alwaysLoaded": false,
+        "file": "assets/Floating Out Button Dark Blue_Hovered.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Floating Out Button Dark Blue_Hovered.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/2f8919c3cad70134ff1732dbaef5dd9babd0aed0240dd817c1db9e27aa6b205b_Floating Out Button Dark Blue_Hovered.png",
+          "name": "Floating Out Button Dark Blue_Hovered.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Floating Out Button Dark Blue_Idle.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Floating Out Button Dark Blue_Idle.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/d2cedf36d5812262daf2389108558a2ee0b40ca23da05f6200e1f0eee905ca11_Floating Out Button Dark Blue_Idle.png",
+          "name": "Floating Out Button Dark Blue_Idle.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Floating Out Button Dark Blue_Pressed.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Floating Out Button Dark Blue_Pressed.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/d246e92fe474d2825e38af207a9926794d490bc052aef447688612f61ec48861_Floating Out Button Dark Blue_Pressed.png",
+          "name": "Floating Out Button Dark Blue_Pressed.png"
+        }
+      },
+      {
+        "file": "assets/CarterOne-Regular.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "CarterOne-Regular.ttf",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/44aceaa249d2ecb8bfe3eb7bedcb17aac44c0f5f13f9f58d85427a5afa7e92f0_CarterOne-Regular.ttf",
+          "name": "CarterOne-Regular.ttf"
+        }
+      },
+      {
+        "file": "assets/1up 10.aac",
+        "kind": "audio",
+        "metadata": "",
+        "name": "de3a55a1dd3cc89f79e916b4ecc0c6344a32fdb6f6731d25b2f95836844e83b5_1up 10.aac",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Arcade/Sound effects/1up/de3a55a1dd3cc89f79e916b4ecc0c6344a32fdb6f6731d25b2f95836844e83b5_1up 10.aac",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "file": "assets/video/pexels-ivan-samkov-6955102 (360p).mp4",
+        "kind": "video",
+        "metadata": "",
+        "name": "assets/video/pexels-ivan-samkov-6955102 (360p).mp4",
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/New image7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "New image5",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Fireworks.aac",
+        "kind": "audio",
+        "metadata": "",
+        "name": "2548fdeb90752c320942e60237978cc4105f7ba9aee2253b352233f73c1e9e3c_Fireworks.aac",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Music/Electronic/2548fdeb90752c320942e60237978cc4105f7ba9aee2253b352233f73c1e9e3c_Fireworks.aac",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "file": "assets/Impact 1.aac",
+        "kind": "audio",
+        "metadata": "",
+        "name": "853b0f38130b729aeebd75277152bcbcbe3b37a1b483b841dc49d9b0e3a44e00_Impact 1.aac",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Western FPS 2D/Sound/853b0f38130b729aeebd75277152bcbcbe3b37a1b483b841dc49d9b0e3a44e00_Impact 1.aac",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Folder-icon.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Folder-icon.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/desktop-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/desktop-2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Barnville.aac",
+        "kind": "audio",
+        "metadata": "",
+        "name": "7fa72663d2b3fcc4aa262ac256fd9e649c88f3acb73d50150a96a98fa4bdf7b3_Barnville.aac",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Music/Comedy/7fa72663d2b3fcc4aa262ac256fd9e649c88f3acb73d50150a96a98fa4bdf7b3_Barnville.aac",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "file": "assets/video/masaaki-yuasa-1.mp4",
+        "kind": "video",
+        "metadata": "",
+        "name": "assets/video/masaaki-yuasa-1.mp4",
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/papertexture-2.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/papertexture-2.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/25053-9-gunshot-hd.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/25053-9-gunshot-hd.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Gun 2.aac",
+        "kind": "audio",
+        "metadata": "",
+        "name": "265701b04cb41976c67820a196c0b3cbc2f98351032b9e710b853da1a5b7ff02_Gun 2.aac",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Western FPS 2D/Sound/265701b04cb41976c67820a196c0b3cbc2f98351032b9e710b853da1a5b7ff02_Gun 2.aac",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
         "file": "../Asset/kenney_animated-characters-1/Skins/zombieA.png",
         "kind": "image",
         "metadata": "",
@@ -6197,28 +6376,10 @@
   "objectsGroups": [],
   "variables": [
     {
-      "name": "Passcode",
-      "type": "array",
-      "children": [
-        {
-          "folded": true,
-          "type": "number",
-          "value": 3
-        },
-        {
-          "folded": true,
-          "type": "number",
-          "value": 1
-        },
-        {
-          "type": "number",
-          "value": 2
-        },
-        {
-          "type": "number",
-          "value": 4
-        }
-      ]
+      "folded": true,
+      "name": "Variable",
+      "type": "string",
+      "value": "Player"
     }
   ],
   "layouts": [
@@ -6237,6 +6398,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/computer-desktop2"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/computer-desktop3"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
@@ -6260,11 +6425,23 @@
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/quiz2"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/ash-lower-gf"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/answer"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/answer2"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/answer3"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,

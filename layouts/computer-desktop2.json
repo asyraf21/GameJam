@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.8700232859857437,
+    "zoomFactor": 0.9610368693714982,
     "windowMask": false
   },
   "objectsGroups": [
@@ -35,6 +35,15 @@
       "objects": [
         {
           "name": "Window"
+        },
+        {
+          "name": "WinMenu_1"
+        },
+        {
+          "name": "WinMenu_2"
+        },
+        {
+          "name": "WinMenu_3"
         }
       ]
     }
@@ -209,15 +218,16 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "Menu_2",
-      "persistentUuid": "7a843569-93f5-4486-8b7e-0496d8bd04db",
-      "width": 0,
-      "x": 501,
-      "y": 276,
-      "zOrder": 14,
+      "customSize": true,
+      "depth": 32,
+      "height": 36,
+      "layer": "PC",
+      "name": "WinMenu_1",
+      "persistentUuid": "f3854260-cfd5-4dd1-b836-e267e4d4c901",
+      "width": 106,
+      "x": 419,
+      "y": 180,
+      "zOrder": 15,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -226,14 +236,46 @@
       "angle": 0,
       "customSize": true,
       "depth": 32,
-      "height": 36,
+      "height": 40,
       "layer": "PC",
-      "name": "Menu_2",
-      "persistentUuid": "f3854260-cfd5-4dd1-b836-e267e4d4c901",
-      "width": 108,
-      "x": 447,
-      "y": 181,
-      "zOrder": 15,
+      "name": "WinMenu_2",
+      "persistentUuid": "66874c33-99a2-4982-86de-3caf8b200ed3",
+      "width": 106,
+      "x": 419,
+      "y": 218,
+      "zOrder": 16,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 32,
+      "height": 37,
+      "layer": "PC",
+      "name": "WinMenu_3",
+      "persistentUuid": "7e7eb724-4651-45ac-a3f1-a81b544c8698",
+      "width": 106,
+      "x": 419,
+      "y": 260,
+      "zOrder": 17,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 295,
+      "layer": "PC",
+      "name": "WindowBlock",
+      "persistentUuid": "c84c12e8-c3d8-4fe7-a66f-e444bca5cd05",
+      "width": 161,
+      "x": 566,
+      "y": 175,
+      "zOrder": 18,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1051,7 +1093,7 @@
     },
     {
       "assetStoreId": "f23eb31ad33dd63f1937c8745105316ca530c28513c64b68a665975503c852a6",
-      "name": "Menu_2",
+      "name": "WinMenu_1",
       "type": "PanelSpriteButton::PanelSpriteButton",
       "variables": [],
       "effects": [],
@@ -1090,9 +1132,9 @@
           "italic": false,
           "smoothed": true,
           "underlined": false,
-          "string": "Button",
-          "font": "mononoki-Regular.ttf",
-          "textAlignment": "center",
+          "string": "1",
+          "font": "RobotoMono-VariableFont_wght.ttf",
+          "textAlignment": "right",
           "characterSize": 20,
           "color": {
             "b": 0,
@@ -1240,6 +1282,206 @@
           "width": 192
         }
       }
+    },
+    {
+      "assetStoreId": "f23eb31ad33dd63f1937c8745105316ca530c28513c64b68a665975503c852a6",
+      "name": "WinMenu_2",
+      "type": "PanelSpriteButton::PanelSpriteButton",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "LeftPadding": 16,
+        "RightPadding": 16,
+        "PressedLabelOffsetY": 6,
+        "BottomPadding": 24,
+        "TopPadding": 20,
+        "HoveredFadeOutDuration": 0.25
+      },
+      "childrenContent": {
+        "Hovered": {
+          "bottomMargin": 22,
+          "height": 64,
+          "leftMargin": 16,
+          "rightMargin": 16,
+          "texture": "White Square Decorated Button_Hovered.png",
+          "tiled": true,
+          "topMargin": 16,
+          "width": 192
+        },
+        "Idle": {
+          "bottomMargin": 22,
+          "height": 64,
+          "leftMargin": 16,
+          "rightMargin": 16,
+          "texture": "White Square Decorated Button_Idle.png",
+          "tiled": true,
+          "topMargin": 16,
+          "width": 192
+        },
+        "Label": {
+          "bold": false,
+          "italic": false,
+          "smoothed": true,
+          "underlined": false,
+          "string": "2",
+          "font": "RobotoMono-VariableFont_wght.ttf",
+          "textAlignment": "right",
+          "characterSize": 20,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          }
+        },
+        "Pressed": {
+          "bottomMargin": 16,
+          "height": 64,
+          "leftMargin": 16,
+          "rightMargin": 16,
+          "texture": "White Square Decorated Button_Pressed.png",
+          "tiled": true,
+          "topMargin": 22,
+          "width": 192
+        }
+      }
+    },
+    {
+      "assetStoreId": "f23eb31ad33dd63f1937c8745105316ca530c28513c64b68a665975503c852a6",
+      "name": "WinMenu_3",
+      "type": "PanelSpriteButton::PanelSpriteButton",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "LeftPadding": 16,
+        "RightPadding": 16,
+        "PressedLabelOffsetY": 6,
+        "BottomPadding": 24,
+        "TopPadding": 20,
+        "HoveredFadeOutDuration": 0.25
+      },
+      "childrenContent": {
+        "Hovered": {
+          "bottomMargin": 22,
+          "height": 64,
+          "leftMargin": 16,
+          "rightMargin": 16,
+          "texture": "White Square Decorated Button_Hovered.png",
+          "tiled": true,
+          "topMargin": 16,
+          "width": 192
+        },
+        "Idle": {
+          "bottomMargin": 22,
+          "height": 64,
+          "leftMargin": 16,
+          "rightMargin": 16,
+          "texture": "White Square Decorated Button_Idle.png",
+          "tiled": true,
+          "topMargin": 16,
+          "width": 192
+        },
+        "Label": {
+          "bold": false,
+          "italic": false,
+          "smoothed": true,
+          "underlined": false,
+          "string": "3",
+          "font": "RobotoMono-VariableFont_wght.ttf",
+          "textAlignment": "right",
+          "characterSize": 20,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          }
+        },
+        "Pressed": {
+          "bottomMargin": 16,
+          "height": 64,
+          "leftMargin": 16,
+          "rightMargin": 16,
+          "texture": "White Square Decorated Button_Pressed.png",
+          "tiled": true,
+          "topMargin": 22,
+          "width": 192
+        }
+      }
+    },
+    {
+      "assetStoreId": "d00645a899e762e085fa6fdf2625701baea9cc10ee903a64ca7d371e5bbb8dca",
+      "name": "FloatingOutButtonDarkBlue",
+      "type": "PanelSpriteButton::PanelSpriteButton",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "LeftPadding": 0,
+        "RightPadding": 0,
+        "PressedLabelOffsetY": 2,
+        "BottomPadding": 4,
+        "TopPadding": 0,
+        "HoveredFadeOutDuration": 0
+      },
+      "childrenContent": {
+        "Hovered": {
+          "bottomMargin": 10,
+          "height": 64,
+          "leftMargin": 6,
+          "rightMargin": 6,
+          "texture": "Floating Out Button Dark Blue_Hovered.png",
+          "tiled": false,
+          "topMargin": 10,
+          "width": 192
+        },
+        "Idle": {
+          "bottomMargin": 10,
+          "height": 64,
+          "leftMargin": 6,
+          "rightMargin": 6,
+          "texture": "Floating Out Button Dark Blue_Idle.png",
+          "tiled": false,
+          "topMargin": 10,
+          "width": 192
+        },
+        "Label": {
+          "bold": false,
+          "italic": false,
+          "smoothed": true,
+          "underlined": false,
+          "string": "Button",
+          "font": "CarterOne-Regular.ttf",
+          "textAlignment": "center",
+          "characterSize": 40,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
+        },
+        "Pressed": {
+          "bottomMargin": 10,
+          "height": 64,
+          "leftMargin": 6,
+          "rightMargin": 6,
+          "texture": "Floating Out Button Dark Blue_Pressed.png",
+          "tiled": false,
+          "topMargin": 10,
+          "width": 192
+        }
+      }
+    },
+    {
+      "assetStoreId": "",
+      "height": 32,
+      "name": "WindowBlock",
+      "texture": "New image5",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
     }
   ],
   "objectsFolderStructure": {
@@ -1293,13 +1535,25 @@
         "objectName": "Menu_1"
       },
       {
-        "objectName": "Menu_2"
+        "objectName": "WinMenu_1"
+      },
+      {
+        "objectName": "WinMenu_2"
+      },
+      {
+        "objectName": "WinMenu_3"
       },
       {
         "objectName": "Window"
       },
       {
         "objectName": "WhiteSquareDecoratedButton"
+      },
+      {
+        "objectName": "FloatingOutButtonDarkBlue"
+      },
+      {
+        "objectName": "WindowBlock"
       }
     ]
   },
@@ -1340,7 +1594,15 @@
             "value": "Cache"
           },
           "parameters": [
-            "Window"
+            "Window_List"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "WindowBlock"
           ]
         },
         {
@@ -1442,9 +1704,9 @@
           },
           "parameters": [
             "",
-            "afc913f2f6ebeaec6beee8473f0994012aec8e37e9fa3225a72a5b8851df4ae8_Jump_Land_02.wav",
+            "853b0f38130b729aeebd75277152bcbcbe3b37a1b483b841dc49d9b0e3a44e00_Impact 1.aac",
             "",
-            "100",
+            "200",
             "1"
           ]
         },
@@ -1493,9 +1755,9 @@
           },
           "parameters": [
             "",
-            "afc913f2f6ebeaec6beee8473f0994012aec8e37e9fa3225a72a5b8851df4ae8_Jump_Land_02.wav",
+            "853b0f38130b729aeebd75277152bcbcbe3b37a1b483b841dc49d9b0e3a44e00_Impact 1.aac",
             "",
-            "100",
+            "200",
             "1"
           ]
         },
@@ -1538,9 +1800,9 @@
           },
           "parameters": [
             "",
-            "afc913f2f6ebeaec6beee8473f0994012aec8e37e9fa3225a72a5b8851df4ae8_Jump_Land_02.wav",
+            "853b0f38130b729aeebd75277152bcbcbe3b37a1b483b841dc49d9b0e3a44e00_Impact 1.aac",
             "",
-            "100",
+            "200",
             "1"
           ]
         },
@@ -1557,28 +1819,122 @@
             "value": "Montre"
           },
           "parameters": [
-            "Window",
+            "Window_List",
             ""
           ]
         }
       ]
     },
     {
-      "type": "BuiltinCommonInstructions::Comment",
-      "color": {
-        "b": 109,
-        "g": 230,
-        "r": 255,
-        "textB": 0,
-        "textG": 0,
-        "textR": 0
-      },
-      "comment": "Reveal Main Page"
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+          },
+          "parameters": [
+            "WinMenu_1",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "WindowBlock",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "853b0f38130b729aeebd75277152bcbcbe3b37a1b483b841dc49d9b0e3a44e00_Impact 1.aac",
+            "",
+            "200",
+            ""
+          ]
+        }
+      ]
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": []
+      "conditions": [
+        {
+          "type": {
+            "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+          },
+          "parameters": [
+            "WinMenu_2",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "WindowBlock",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "853b0f38130b729aeebd75277152bcbcbe3b37a1b483b841dc49d9b0e3a44e00_Impact 1.aac",
+            "",
+            "200",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+          },
+          "parameters": [
+            "WinMenu_3",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "WindowBlock",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "853b0f38130b729aeebd75277152bcbcbe3b37a1b483b841dc49d9b0e3a44e00_Impact 1.aac",
+            "",
+            "200",
+            ""
+          ]
+        }
+      ]
     },
     {
       "type": "BuiltinCommonInstructions::Comment",

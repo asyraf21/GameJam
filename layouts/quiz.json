@@ -612,63 +612,14 @@
             "Answer_C3",
             ""
           ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "MouseButtonReleased"
-          },
-          "parameters": [
-            "",
-            "Left"
-          ]
         },
         {
           "type": {
-            "value": "SourisSurObjet"
+            "value": "ResetObjectTimer"
           },
           "parameters": [
             "Question_C0",
-            "",
-            "",
-            ""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "PlaySound"
-          },
-          "parameters": [
-            "",
-            "68925675fcabb94f8a61147afe954c687928fc116429ddff9e539e39540f9b8e_Glass Breaking 2.aac",
-            "",
-            "",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "Delete"
-          },
-          "parameters": [
-            "Question_C0",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "Scene"
-          },
-          "parameters": [
-            "",
-            "\"Ash-Lower GF\"",
-            ""
+            "\"QuestionTimer\""
           ]
         }
       ]

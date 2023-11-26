@@ -511,11 +511,9 @@
         },
         {
           "type": {
-            "value": "Scene"
+            "value": "PopScene"
           },
           "parameters": [
-            "",
-            "\"Ash-Lower GF\"",
             ""
           ]
         }
